@@ -1,0 +1,52 @@
+h3{
+    font-size: 1.2em;
+    margin: 0 0 15px 0;
+}
+.dt_preview{width: 300px;padding: 0 10px 0 0; border-right: 2px solid #CCC;}
+#dtfiles-preview{
+    display: none;
+    text-align: center;
+}
+#dtfiles-preview .image{
+    width: 256px;
+    height: 256px;
+    margin: 0 auto 10px auto;
+    background: url(../images/preview.png) no-repeat center;
+}
+#dtfiles-preview span{
+    display: block;
+    padding: 2px 0;
+}
+#dtfiles-preview .name{font-weight: bold;color: #000;}
+#dtfiles-preview .secure{color: #629c10;}
+#dtfiles-preview .delete{
+    display: inline-block;
+    padding: 5px 10px;
+}
+#dtfiles-uploader{text-align: center;}
+
+.transparent{
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter: alpha(opacity=40);
+    -moz-opacity:0.4;
+    -khtml-opacity: 0.4;
+    opacity: 0.4;
+}
+
+#files-editor{
+    padding: 0 0 0 10px;
+}
+#files-editor label{
+    font-weight: bold;
+    display: block;
+    padding: 2px 0;
+}
+input, select{
+    margin: 0 0 5px 0;
+}
+input[type='button']{
+    margin-top: 20px;
+}
+.url-container{display: none;}
+.dt-errors{padding: 4px;border:1px solid #dd220b; background: #ff4100; color: #fff; display: none;}
+.uploadifyQueueItem{width: 270px;}

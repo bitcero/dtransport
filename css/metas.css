@@ -1,0 +1,4 @@
+#dt-metas-container textarea,
+#the-fields textarea{width: 95%; height: 60px;}
+#dt-metas-container label{display: block; font-weight: bold;}
+#dt-metas-container label.error{font-weight: normal; display: none; background-color: rgba(248, 255, 129, 0.48);}

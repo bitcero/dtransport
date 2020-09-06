@@ -1,0 +1,1 @@
+<{include file="`$block.tplPath`/dt-block-links.tpl"}>

@@ -1,0 +1,3591 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: D-Transport\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-28 11:10-0500\n"
+"PO-Revision-Date: 2017-06-28 11:10-0500\n"
+"Last-Translator: Eduardo Cortés <i.bitcero@gmail.com>\n"
+"Language-Team: Xoops Mexico <xoopsmexico@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/categories.php:66 admin/menu.php:32 home.php:51
+#: templates/admin/dtrans-form-items.php:61
+#: templates/sets/default/dt-submit.php:56 xoops_version.php:224
+#: xoops_version.php:743
+msgid "Categories"
+msgstr ""
+
+#: admin/categories.php:90 admin/categories.php:179
+msgid "Specified category is not valid!"
+msgstr ""
+
+#: admin/categories.php:97 admin/categories.php:186 category.php:50
+msgid "Specified category does not exists!"
+msgstr ""
+
+#: admin/categories.php:103
+msgid "Edit category"
+msgstr ""
+
+#: admin/categories.php:103
+msgid "New category"
+msgstr ""
+
+#: admin/categories.php:107
+msgid "Edit Category"
+msgstr ""
+
+#: admin/categories.php:107
+msgid "New Category"
+msgstr ""
+
+#: admin/categories.php:108 templates/admin/dtrans-categories.php:14
+#: templates/admin/dtrans-categories.php:75
+#: templates/admin/dtrans-categories.php:111
+msgid "Category name"
+msgstr ""
+
+#: admin/categories.php:111
+msgid "Category short name"
+msgstr ""
+
+#: admin/categories.php:114 include/cpanel/screens.php:82
+#: include/cpanel/screens.php:134 templates/admin/dtrans-categories.php:24
+#: templates/admin/dtrans-categories.php:76
+#: templates/admin/dtrans-categories.php:112
+#: templates/admin/dtrans-screens.php:35 templates/admin/dtrans-screens.php:45
+msgid "Description"
+msgstr ""
+
+#: admin/categories.php:117 templates/admin/dtrans-categories.php:29
+msgid "Root category"
+msgstr ""
+
+#: admin/categories.php:118 templates/admin/dtrans-categories.php:31
+msgid "Select category..."
+msgstr ""
+
+#: admin/categories.php:126
+msgid "Active category"
+msgstr ""
+
+#: admin/categories.php:133 class/functions.class.php:927
+msgid "Submit"
+msgstr ""
+
+#: admin/categories.php:139 admin/licenses.php:132 cpanel.php:205
+#: include/cpanel/features.php:94 include/cpanel/files.php:157
+#: include/cpanel/logs.php:89 include/cpanel/screens.php:119
+#: include/js-strings.php:45 templates/admin/dtrans-files-form.php:69
+#: templates/admin/dtrans-form-features.php:42
+#: templates/admin/dtrans-form-items.php:309
+#: templates/admin/dtrans-metas.php:17 templates/sets/default/dt-submit.php:207
+msgid "Cancel"
+msgstr ""
+
+#: admin/categories.php:168 admin/categories.php:279 admin/items.php:413
+#: admin/items.php:484 admin/licenses.php:158 admin/licenses.php:265
+#: ajax/items-ajax.php:238
+msgid "Session token expired!"
+msgstr ""
+
+#: admin/categories.php:195
+msgid "Another category with same name already exists!"
+msgstr ""
+
+#: admin/categories.php:204
+msgid "Already exists another category with same short name!"
+msgstr ""
+
+#: admin/categories.php:217
+msgid "Already exists another category with same name!"
+msgstr ""
+
+#: admin/categories.php:252
+msgid "Category could not be saved!"
+msgstr ""
+
+#: admin/categories.php:256
+msgid "Category saved successfully!"
+msgstr ""
+
+#: admin/categories.php:274 admin/categories.php:326
+msgid "You must select at least one category to delete!"
+msgstr ""
+
+#: admin/categories.php:286
+#, php-format
+msgid "Category ID \"%s\" is not valid!"
+msgstr ""
+
+#: admin/categories.php:293
+#, php-format
+msgid "Category with ID \"%s\" does not exists!"
+msgstr ""
+
+#: admin/categories.php:298
+#, php-format
+msgid "Category \"%s\" could not be deleted!"
+msgstr ""
+
+#: admin/categories.php:305
+msgid "There was errors trying to delete categories"
+msgstr ""
+
+#: admin/categories.php:309
+msgid "Categories deleted successfully!"
+msgstr ""
+
+#: admin/categories.php:335 admin/platforms.php:151
+msgid "Database could not be updated!"
+msgstr ""
+
+#: admin/categories.php:339 admin/items.php:500 admin/logs.php:176
+#: ajax/files-ajax.php:75
+msgid "Database updated successfully!"
+msgstr ""
+
+#: admin/features.php:26 admin/features.php:98 admin/features.php:157
+#: admin/features.php:252 admin/files.php:149 admin/files.php:258
+#: admin/files.php:301 admin/logs.php:84 admin/logs.php:146 admin/logs.php:197
+#: ajax/items-ajax.php:111 ajax/upload-screens.php:52 ajax/upload.php:34
+#: cpanel.php:176
+msgid "Specified download item does not exists!"
+msgstr ""
+
+#: admin/features.php:51 templates/admin/dtrans-features.php:1
+#, php-format
+msgid "Features of \"%s\""
+msgstr ""
+
+#: admin/features.php:65 admin/files.php:108 admin/files.php:180
+#: admin/logs.php:47 admin/menu.php:142 admin/screens.php:71
+#: admin/statistics.php:117 blocks/dtrans_bk_links.php:32 xoops_version.php:249
+msgid "Downloads"
+msgstr ""
+
+#: admin/features.php:67 admin/menu.php:99 class/functions.class.php:95
+#: class/functions.class.php:936 class/functions.class.php:960 cpanel.php:383
+#: templates/admin/dtrans-items.php:147
+msgid "Features"
+msgstr ""
+
+#: admin/features.php:92 admin/features.php:151 admin/files.php:251
+#: admin/logs.php:141 admin/logs.php:192 admin/screens.php:36
+#: ajax/upload-screens.php:48 ajax/upload.php:27
+msgid "Download item ID not provided!"
+msgstr ""
+
+#: admin/features.php:104 admin/features.php:165
+msgid "Feature ID not specified!"
+msgstr ""
+
+#: admin/features.php:110 admin/features.php:171 include/cpanel/features.php:37
+#: include/cpanel/features.php:139 include/cpanel/files.php:55
+msgid "Specified feature does not exists!"
+msgstr ""
+
+#: admin/features.php:121
+msgid "Edit Feature"
+msgstr ""
+
+#: admin/features.php:121 class/functions.class.php:932
+msgid "Add Feature"
+msgstr ""
+
+#: admin/features.php:194 include/cpanel/features.php:158
+msgid "Another feature with same title already exists!"
+msgstr ""
+
+#: admin/features.php:216 include/cpanel/features.php:173
+msgid "Featured saved successfully!"
+msgstr ""
+
+#: admin/features.php:226
+#, php-format
+msgid "Feature could not be saved: %s"
+msgstr ""
+
+#: admin/features.php:246
+msgid "Download item not specified!"
+msgstr ""
+
+#: admin/features.php:257
+msgid "You must specified at least one feature to delete!"
+msgstr ""
+
+#: admin/features.php:277
+#, php-format
+msgid "Feature %s could not be deleted: %s"
+msgstr ""
+
+#: admin/features.php:286
+msgid "Features has been deleted successfully!"
+msgstr ""
+
+#: admin/features.php:296
+#, php-format
+msgid "Some errors occurs whiel trygin to delete features: %s"
+msgstr ""
+
+#: admin/files.php:28
+msgid "Before to view files, you must specify a download item!"
+msgstr ""
+
+#: admin/files.php:33 admin/screens.php:190 admin/screens.php:272
+#: ajax/files-ajax.php:41 ajax/vote.php:70 item.php:26 submit.php:468
+msgid "Specified item does not exists!"
+msgstr ""
+
+#: admin/files.php:110 admin/files.php:182 admin/files.php:185
+#: admin/files.php:186 admin/menu.php:107 class/functions.class.php:102
+#: class/functions.class.php:934 class/functions.class.php:954 cpanel.php:382
+#: templates/admin/dtrans-items.php:152 xoops_version.php:744
+msgid "Files"
+msgstr ""
+
+#: admin/files.php:113
+#, php-format
+msgid "Files for \"%s\""
+msgstr ""
+
+#: admin/files.php:144 admin/files.php:294
+msgid "No download item ID has been provided!"
+msgstr ""
+
+#: admin/files.php:156
+msgid "No file ID has been specified!"
+msgstr ""
+
+#: admin/files.php:161 admin/files.php:314 ajax/files-ajax.php:109
+#: ajax/files-ajax.php:187 ajax/files-ajax.php:257 ajax/files-ajax.php:291
+#: include/cpanel/files.php:213
+msgid "Specified file does not exists!"
+msgstr ""
+
+#: admin/files.php:172
+#, php-format
+msgid "File %s does not exists! You need to upload this file again."
+msgstr ""
+
+#: admin/files.php:183 class/functions.class.php:930
+#: templates/admin/dtrans-files.php:68 templates/admin/dtrans-files.php:70
+msgid "Add File"
+msgstr ""
+
+#: admin/files.php:185 admin/files.php:186
+msgid "Edit file"
+msgstr ""
+
+#: admin/files.php:185 admin/files.php:186
+msgid "New file"
+msgstr ""
+
+#: admin/files.php:245 admin/logs.php:149 admin/logs.php:205
+#: ajax/files-ajax.php:32 ajax/files-ajax.php:249 ajax/files-ajax.php:284
+#: ajax/items-ajax.php:83 ajax/items-ajax.php:284 ajax/upload-screens.php:45
+#: ajax/upload-screens.php:144 ajax/vote.php:50
+msgid "Session token not valid!"
+msgstr ""
+
+#: admin/files.php:264
+msgid "Group id not provided!"
+msgstr ""
+
+#: admin/files.php:271 ajax/files-ajax.php:51 ajax/files-ajax.php:262
+msgid "Specified group does not exists!"
+msgstr ""
+
+#: admin/files.php:276
+#, php-format
+msgid "Group %s could not be deleted!"
+msgstr ""
+
+#: admin/files.php:279
+#, php-format
+msgid "Group %s deleted successfully!"
+msgstr ""
+
+#: admin/files.php:307
+msgid "No file ID has been provided!"
+msgstr ""
+
+#: admin/files.php:324
+msgid "File updated successfully!"
+msgstr ""
+
+#: admin/files.php:328
+#, php-format
+msgid "Errors occurs while trying to update files: %s"
+msgstr ""
+
+#: admin/header.php:36
+#, php-format
+msgid "Directory \"%s\" to store downloads does not exists yet!"
+msgstr ""
+
+#: admin/header.php:45
+#, php-format
+msgid "Protected directory \\\"%s\\\" does not exists!"
+msgstr ""
+
+#: admin/index.php:106
+msgid "An error ocurred while trying to write .htaccess file!"
+msgstr ""
+
+#: admin/index.php:115 admin/menu.php:24 templates/admin/dtrans-index.php:1
+msgid "Dashboard"
+msgstr ""
+
+#: admin/items.php:174
+msgid "Pending Downloads"
+msgstr ""
+
+#: admin/items.php:177
+msgid "Edited Downloads"
+msgstr ""
+
+#: admin/items.php:180
+msgid "Downloads Management"
+msgstr ""
+
+#: admin/items.php:228
+msgid "Download item has not been specified!"
+msgstr ""
+
+#: admin/items.php:236
+msgid "Download item does not exists!"
+msgstr ""
+
+#: admin/items.php:260
+msgid "New Download Item"
+msgstr ""
+
+#: admin/items.php:294 submit.php:89
+msgid "Other license"
+msgstr ""
+
+#: admin/items.php:314 submit.php:110
+msgid "Other platform"
+msgstr ""
+
+#: admin/items.php:353
+msgid "Downloads management"
+msgstr ""
+
+#: admin/items.php:354
+msgid "Editing item"
+msgstr ""
+
+#: admin/items.php:354
+msgid "New item"
+msgstr ""
+
+#: admin/items.php:407
+msgid "You must select at least one download item to delete!"
+msgstr ""
+
+#: admin/items.php:450 cpanel.php:248
+#, php-format
+msgid "Your download %s has been deleted!"
+msgstr ""
+
+#: admin/items.php:459
+msgid "Errors ocurred while trying to delete selected downloads!"
+msgstr ""
+
+#: admin/items.php:461
+msgid "Downloads deleted successfully!"
+msgstr ""
+
+#: admin/items.php:490
+msgid "You must select at least one item to modify!"
+msgstr ""
+
+#: admin/items.php:497
+msgid "Errors ocurred while trying to update database!"
+msgstr ""
+
+#: admin/licenses.php:65 templates/admin/dtrans-form-items.php:82
+#: templates/sets/default/dt-submit.php:76
+msgid "Licences"
+msgstr ""
+
+#: admin/licenses.php:91
+msgid "You must provide a valid license ID!"
+msgstr ""
+
+#: admin/licenses.php:102
+msgid "Specified licence ID does not exists!"
+msgstr ""
+
+#: admin/licenses.php:112 admin/menu.php:40
+msgid "Licenses"
+msgstr ""
+
+#: admin/licenses.php:113 admin/licenses.php:117
+msgid "Edit Licence"
+msgstr ""
+
+#: admin/licenses.php:113 admin/licenses.php:117
+msgid "New Licence"
+msgstr ""
+
+#: admin/licenses.php:118
+msgid "Licence name"
+msgstr ""
+
+#: admin/licenses.php:119
+msgid "Licence reference URL"
+msgstr ""
+
+#: admin/licenses.php:121
+msgid "Licence type"
+msgstr ""
+
+#: admin/licenses.php:122
+msgid "Open source licence"
+msgstr ""
+
+#: admin/licenses.php:123
+msgid "Restrictive licence"
+msgstr ""
+
+#: admin/licenses.php:131 include/js-strings.php:62
+#: templates/admin/dtrans-files-form.php:68
+#: templates/admin/dtrans-form-items.php:305
+msgid "Save Changes"
+msgstr ""
+
+#: admin/licenses.php:174
+msgid "You must provide a licence identifier in order to edit its data"
+msgstr ""
+
+#: admin/licenses.php:185
+msgid "Specified licence does not exists!"
+msgstr ""
+
+#: admin/licenses.php:197 admin/licenses.php:212
+msgid "Another licence with same name already exists!"
+msgstr ""
+
+#: admin/licenses.php:231
+msgid "Licence could not be saved! Please try again"
+msgstr ""
+
+#: admin/licenses.php:239
+msgid "License saved successfully!"
+msgstr ""
+
+#: admin/licenses.php:260
+msgid "No licenses has been specified!"
+msgstr ""
+
+#: admin/licenses.php:274
+#, php-format
+msgid "Specified ID for licence does not exists: %s"
+msgstr ""
+
+#: admin/licenses.php:281
+#, php-format
+msgid "Sepecified licence does not exists: %s"
+msgstr ""
+
+#: admin/licenses.php:286
+#, php-format
+msgid "Licence \"%s\" could not be deleted!"
+msgstr ""
+
+#: admin/licenses.php:292
+msgid "Errors ocurred whilke trying to delete licenses:"
+msgstr ""
+
+#: admin/licenses.php:294
+msgid "Licences deleted successfully!"
+msgstr ""
+
+#: admin/logs.php:27
+msgid "%m%-%d%-%Y%"
+msgstr ""
+
+#: admin/logs.php:49
+msgid "Versions Log"
+msgstr ""
+
+#: admin/logs.php:79
+msgid "Download item ID has not been provided!"
+msgstr ""
+
+#: admin/logs.php:89
+msgid "Log item ID has not been provided!"
+msgstr ""
+
+#: admin/logs.php:94
+msgid "Specified item log does not exists!"
+msgstr ""
+
+#: admin/logs.php:104
+#, php-format
+msgid "Edit Change Log of \"%s\""
+msgstr ""
+
+#: admin/logs.php:104
+#, php-format
+msgid "New Log for \"%s\""
+msgstr ""
+
+#: admin/logs.php:106 templates/admin/dtrans-index.php:122
+#: templates/admin/dtrans-index.php:154
+msgid "Download Item"
+msgstr ""
+
+#: admin/logs.php:107 include/cpanel/logs.php:70
+#: templates/admin/dtrans-logs.php:34 templates/admin/dtrans-logs.php:44
+msgid "Log title"
+msgstr ""
+
+#: admin/logs.php:108 include/cpanel/logs.php:71
+msgid "Log content"
+msgstr ""
+
+#: admin/logs.php:157
+msgid "Item log ID not provided!"
+msgstr ""
+
+#: admin/logs.php:161 include/cpanel/logs.php:37 include/cpanel/logs.php:130
+msgid "Specified log does not exists!"
+msgstr ""
+
+#: admin/logs.php:174
+msgid "Item log could not be saved!"
+msgstr ""
+
+#: admin/logs.php:201
+msgid "You must select at least one log!"
+msgstr ""
+
+#: admin/logs.php:211
+msgid "Item logs deleted successfully!"
+msgstr ""
+
+#: admin/logs.php:213
+msgid "Logs could not be deleted!"
+msgstr ""
+
+#: admin/menu.php:48 templates/admin/dtrans-form-items.php:107
+#: templates/sets/default/dt-submit.php:100
+msgid "Platforms"
+msgstr ""
+
+#: admin/menu.php:59 blocks/dtrasn_bk_items.php:118
+msgid "All downloads"
+msgstr ""
+
+#: admin/menu.php:65 class/functions.class.php:929
+msgid "Pending"
+msgstr ""
+
+#: admin/menu.php:71
+msgid "Edited"
+msgstr ""
+
+#: admin/menu.php:77 include/tasks.php:186
+msgid "Deleted"
+msgstr ""
+
+#: admin/menu.php:91 admin/screens.php:73 class/functions.class.php:957
+#: cpanel.php:385 item.php:262
+msgid "Screenshots"
+msgstr ""
+
+#: admin/menu.php:115 class/functions.class.php:109
+#: class/functions.class.php:935 class/functions.class.php:963 cpanel.php:384
+#: item.php:267 templates/admin/dtrans-items.php:157
+msgid "Logs"
+msgstr ""
+
+#: admin/menu.php:123
+msgid "Statistics"
+msgstr ""
+
+#: admin/menu.php:134
+msgid "New Download"
+msgstr ""
+
+#: admin/platforms.php:60
+msgid "You must specified a valid platform ID!"
+msgstr ""
+
+#: admin/platforms.php:67
+msgid "Sepecified platform does not exists!"
+msgstr ""
+
+#: admin/platforms.php:79
+msgid "Edit Platform"
+msgstr ""
+
+#: admin/platforms.php:79
+msgid "New Platform"
+msgstr ""
+
+#: admin/platforms.php:113
+msgid "You must specify a valid platform ID!"
+msgstr ""
+
+#: admin/platforms.php:120
+msgid "Specified platform does not exists!"
+msgstr ""
+
+#: admin/platforms.php:128 admin/platforms.php:139
+msgid "Another platform with same name already exists!"
+msgstr ""
+
+#: admin/platforms.php:154
+msgid "Platform saved successfully!"
+msgstr ""
+
+#: admin/platforms.php:174
+msgid "You must select at least one platform to delete!"
+msgstr ""
+
+#: admin/platforms.php:179
+msgid "Session token expired"
+msgstr ""
+
+#: admin/platforms.php:187
+#, php-format
+msgid "Invalid platform ID: %s"
+msgstr ""
+
+#: admin/platforms.php:194
+#, php-format
+msgid "Does nto exists platform with ID %s"
+msgstr ""
+
+#: admin/platforms.php:199
+#, php-format
+msgid "Platform \"%s\" could not be deleted!"
+msgstr ""
+
+#: admin/platforms.php:205
+msgid "Errors ocurred while trying to delete platforms:"
+msgstr ""
+
+#: admin/platforms.php:207
+msgid "Platforms deleted successfully!"
+msgstr ""
+
+#: admin/screens.php:75
+#, php-format
+msgid "%s Screenshots"
+msgstr ""
+
+#: admin/screens.php:184
+msgid "You must specify an item ID"
+msgstr ""
+
+#: admin/screens.php:197
+msgid ""
+"You have reached the maximum number of screenshots allowed for this item!"
+msgstr ""
+
+#: admin/screens.php:227
+#, php-format
+msgid "Errors occurs while trying to save images: %s"
+msgstr ""
+
+#: admin/screens.php:239
+msgid "Images saved successfully"
+msgstr ""
+
+#: admin/screens.php:267
+msgid "No download item has been specified!"
+msgstr ""
+
+#: admin/screens.php:278
+msgid "No image has been specified!"
+msgstr ""
+
+#: admin/screens.php:301
+#, php-format
+msgid "Some errors occurs while trying to delete images: %s"
+msgstr ""
+
+#: admin/screens.php:311
+msgid "Images deleted successfully"
+msgstr ""
+
+#: admin/screens.php:338
+msgid "Specified image does not exists!"
+msgstr ""
+
+#: admin/screens.php:348
+msgid "Image information"
+msgstr ""
+
+#: admin/screens.php:368 ajax/upload-screens.php:149
+msgid "Specified screenshot does not exists!"
+msgstr ""
+
+#: admin/screens.php:372
+msgid "You must provide a title for this screenshot!"
+msgstr ""
+
+#: admin/screens.php:379
+msgid "Screenshot changes could not be saved!"
+msgstr ""
+
+#: admin/screens.php:383
+msgid "Information saved successfully!"
+msgstr ""
+
+#: admin/statistics.php:20
+msgid "You must specify a valid download item!"
+msgstr ""
+
+#: admin/statistics.php:24 ajax/vote.php:65
+msgid "Specified item is not valid!"
+msgstr ""
+
+#: ajax/files-ajax.php:36
+msgid "Download item ID has not been specified!"
+msgstr ""
+
+#: ajax/files-ajax.php:46
+msgid "A group ID has not been specified!"
+msgstr ""
+
+#: ajax/files-ajax.php:67
+msgid "Another group with same name exists already!"
+msgstr ""
+
+#: ajax/files-ajax.php:83
+msgid "Database could not be updated"
+msgstr ""
+
+#: ajax/files-ajax.php:113
+#, php-format
+msgid "File %s could not be deleted! Please try again."
+msgstr ""
+
+#: ajax/files-ajax.php:117 ajax/files-ajax.php:121
+#, php-format
+msgid "File %s was deleted successfully!"
+msgstr ""
+
+#: ajax/files-ajax.php:137
+msgid "Identifier could not be verified!"
+msgstr ""
+
+#: ajax/files-ajax.php:145
+msgid "Critical error!"
+msgstr ""
+
+#: ajax/files-ajax.php:147
+msgid "Verified"
+msgstr ""
+
+#: ajax/files-ajax.php:168
+msgid "Item download ID not provided!"
+msgstr ""
+
+#: ajax/files-ajax.php:174 ajax/files-ajax.php:295
+msgid "Specified item download does not exists!"
+msgstr ""
+
+#: ajax/files-ajax.php:181
+msgid "File ID has not been provided!"
+msgstr ""
+
+#: ajax/files-ajax.php:223
+msgid "File could not be saved!"
+msgstr ""
+
+#: ajax/files-ajax.php:230 ajax/files-ajax.php:233
+#, php-format
+msgid "File %s saved successfully!"
+msgstr ""
+
+#: ajax/files-ajax.php:266 ajax/files-ajax.php:298
+msgid "This file seems not belong to specified download item!"
+msgstr ""
+
+#: ajax/files-ajax.php:271
+msgid "File reasigned successfully!"
+msgstr ""
+
+#: ajax/files-ajax.php:273
+msgid "File could not be reasigned!"
+msgstr ""
+
+#: ajax/files-ajax.php:301
+msgid "File could not be deleted!"
+msgstr ""
+
+#: ajax/files-ajax.php:309 include/cpanel/files.php:304
+msgid "File deleted successfully!"
+msgstr ""
+
+#: ajax/items-ajax.php:87
+msgid "Name must be specified!"
+msgstr ""
+
+#: ajax/items-ajax.php:90
+msgid ""
+"A short description and full description must be specified for this download!"
+msgstr ""
+
+#: ajax/items-ajax.php:93
+msgid "Select a category to assign this download!"
+msgstr ""
+
+#: ajax/items-ajax.php:96
+msgid "A license must be selected at least!"
+msgstr ""
+
+#: ajax/items-ajax.php:99
+msgid "A platform must be selected at least!"
+msgstr ""
+
+#: ajax/items-ajax.php:102
+msgid "A group must be selected at least!"
+msgstr ""
+
+#: ajax/items-ajax.php:107
+msgid "You must specified a download item to be edited!"
+msgstr ""
+
+#: ajax/items-ajax.php:186 submit.php:528
+msgid "Another item with same name already exists!"
+msgstr ""
+
+#: ajax/items-ajax.php:193
+msgid "Item could not be saved!"
+msgstr ""
+
+#: ajax/items-ajax.php:196
+msgid "Item saved but with some errors!"
+msgstr ""
+
+#: ajax/items-ajax.php:213 ajax/items-ajax.php:272 submit.php:428
+msgid "Changes saved successfully!"
+msgstr ""
+
+#: ajax/items-ajax.php:213
+msgid "Item created successfully!"
+msgstr ""
+
+#: ajax/items-ajax.php:242 ajax/items-ajax.php:288
+msgid "No item ID has been provided!"
+msgstr ""
+
+#: ajax/items-ajax.php:246 ajax/items-ajax.php:292
+msgid "Provided item ID is not valid!"
+msgstr ""
+
+#: ajax/items-ajax.php:250
+msgid "Please provide new permalink name!"
+msgstr ""
+
+#: ajax/items-ajax.php:262
+msgid ""
+"Another item with same permalink name already exists! Please provide another "
+"one."
+msgstr ""
+
+#: ajax/items-ajax.php:267
+msgid "New name could not be saved!"
+msgstr ""
+
+#: ajax/items-ajax.php:297
+msgid "Data could not be changed!"
+msgstr ""
+
+#: ajax/items-ajax.php:300
+msgid "Data changed successfully!"
+msgstr ""
+
+#: ajax/upload-screens.php:20
+msgid "Error:"
+msgstr ""
+
+#: ajax/upload-screens.php:55
+msgid "You have reached the limit screens number for this download item!"
+msgstr ""
+
+#: ajax/upload-screens.php:74
+msgid "Directory for store screenshots does not exists!"
+msgstr ""
+
+#: ajax/upload-screens.php:98
+msgid "Screenshot could not be saved!"
+msgstr ""
+
+#: ajax/upload-screens.php:152
+msgid "Screenshot could not be deleted!"
+msgstr ""
+
+#: ajax/upload.php:41
+msgid "Directory for protected downloads does not exists!"
+msgstr ""
+
+#: ajax/upload.php:48
+msgid "Directory for downloads does not exists!"
+msgstr ""
+
+#: ajax/upload.php:73 templates/admin/dtrans-files-form.php:11
+msgid "Protected Download"
+msgstr ""
+
+#: ajax/upload.php:73 templates/admin/dtrans-files-form.php:11
+msgid "Normal Download"
+msgstr ""
+
+#: ajax/upload.php:82
+msgid "File upload successfully!"
+msgstr ""
+
+#: ajax/vote.php:59
+msgid "We're sorry. You must be logged to vote!"
+msgstr ""
+
+#: ajax/vote.php:62
+msgid "Given rate is not valid!"
+msgstr ""
+
+#: ajax/vote.php:90
+msgid "Vote could not be stored! Please try again."
+msgstr ""
+
+#: ajax/vote.php:107
+msgid "Thanks for update your vote!"
+msgstr ""
+
+#: ajax/vote.php:107
+msgid "Thank you for vote!"
+msgstr ""
+
+#: ajax/vote.php:109
+msgid "oops, an error ocurred! Please try again."
+msgstr ""
+
+#: blocks/dtrans_bk_categories.php:95
+msgid "Show categories levels:"
+msgstr ""
+
+#: blocks/dtrans_bk_categories.php:99
+msgid "All levels"
+msgstr ""
+
+#: blocks/dtrans_bk_categories.php:100
+msgid "1 level"
+msgstr ""
+
+#: blocks/dtrans_bk_categories.php:101
+msgid "2 levels"
+msgstr ""
+
+#: blocks/dtrans_bk_categories.php:102
+msgid "3 levels"
+msgstr ""
+
+#: blocks/dtrans_bk_categories.php:103
+msgid "4 levels"
+msgstr ""
+
+#: blocks/dtrans_bk_categories.php:104
+msgid "5 levels"
+msgstr ""
+
+#: blocks/dtrans_bk_links.php:38 class/functions.class.php:928 explore.php:29
+#: xoops_version.php:746
+msgid "My Downloads"
+msgstr ""
+
+#: blocks/dtrans_bk_links.php:45 submit.php:154
+msgid "Submit Download"
+msgstr ""
+
+#: blocks/dtrans_bk_links.php:52 explore.php:30 xoops_version.php:747
+msgid "Recent Downloads"
+msgstr ""
+
+#: blocks/dtrans_bk_links.php:58
+msgid "Popular Downloads"
+msgstr ""
+
+#: blocks/dtrans_bk_links.php:64 home.php:45
+#: templates/admin/dtrans-index.php:115
+msgid "Best Rated"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:85
+#, php-format
+msgid "Downloaded %s times."
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:97 category.php:114 category.php:122
+#: explore.php:112 home.php:49 item.php:261 licenses.php:74 platforms.php:73
+#: tags.php:77 tags.php:81
+msgid "Download"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:98
+#, php-format
+msgid "User rating: %s"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:99
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:117
+msgid "Donwloads type"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:119
+msgid "Recent downloads"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:120
+msgid "Popular downloads"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:121
+msgid "Best rated downloads"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:122
+msgid "Featured download"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:123
+msgid "Daily downloads"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:131
+msgid "Downloads from category"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:132
+msgid "All categories"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:139
+msgid "Items limit"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:142
+msgid "Show image"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:145
+msgid "Image size"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:146
+msgid ""
+"This name must match with a size configured previously in image manager."
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:149
+msgid "Show description"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:152
+msgid "Show hits"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:155
+msgid "Show user rating"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:158
+msgid "Show site rating"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:161
+msgid "Show download link"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:164
+msgid "Show author"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:167
+msgid "Show downloads from a single user"
+msgstr ""
+
+#: blocks/dtrasn_bk_items.php:168
+msgid "You can specify a user name or a integer id of the user."
+msgstr ""
+
+#: category.php:22
+msgid "Category not specified!"
+msgstr ""
+
+#: category.php:107 category.php:115 explore.php:105 home.php:52 item.php:230
+#: item.php:272 licenses.php:75 platforms.php:74 tags.php:78
+msgid "<strong>Day</strong> Downloads"
+msgstr ""
+
+#: category.php:112 explore.php:111 home.php:47 licenses.php:72
+#: platforms.php:71 tags.php:75
+msgid "<strong>Featured</strong> Downloads"
+msgstr ""
+
+#: category.php:113 home.php:48 licenses.php:73 platforms.php:72 tags.php:76
+#, php-format
+msgid "In <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: category.php:119
+#, php-format
+msgid "<strong>Downloads in</strong> %s"
+msgstr ""
+
+#: category.php:121
+#, php-format
+msgid "<strong>%s</strong> Featured Downloads"
+msgstr ""
+
+#: category.php:126
+#, php-format
+msgid "Downloads in \"%s\""
+msgstr ""
+
+#: class/dtransportcontroller.php:44 class/dtransportcontroller.php:54
+msgid "Not found"
+msgstr ""
+
+#: class/functions.class.php:81
+msgid "List"
+msgstr ""
+
+#: class/functions.class.php:88 templates/admin/dtrans-items.php:142
+msgid "Images"
+msgstr ""
+
+#: class/functions.class.php:116
+msgid "Stats"
+msgstr ""
+
+#: class/functions.class.php:361 explore.php:95
+#, php-format
+msgid "%s votes"
+msgstr ""
+
+#: class/functions.class.php:362 explore.php:96
+#, php-format
+msgid "%s downloads"
+msgstr ""
+
+#: class/functions.class.php:603
+msgid "Custom Fields"
+msgstr ""
+
+#: class/functions.class.php:603
+msgid ""
+"Custom fields allows you to add extra information to elements, that can be "
+"used on templates, plugins or another elements."
+msgstr ""
+
+#: class/functions.class.php:838
+msgid "Item not Found"
+msgstr ""
+
+#: class/functions.class.php:926
+msgid "View Profile"
+msgstr ""
+
+#: class/functions.class.php:931
+msgid "Add Screenshot"
+msgstr ""
+
+#: class/functions.class.php:933 templates/admin/dtrans-logs.php:17
+msgid "Add Log"
+msgstr ""
+
+#: class/functions.class.php:937
+msgid "Screesnhots"
+msgstr ""
+
+#: class/functions.class.php:938
+msgid "Edit download item"
+msgstr ""
+
+#: class/functions.class.php:939
+msgid "Delete download item"
+msgstr ""
+
+#: class/functions.class.php:1084
+msgid "Your download has been approved"
+msgstr ""
+
+#: class/functions.class.php:1100 cpanel.php:364 cpanel.php:375
+#: templates/admin/dtrans-items.php:33 templates/admin/dtrans-items.php:72
+#: templates/admin/dtrans-items.php:232 templates/admin/dtrans-items.php:258
+msgid "Approved"
+msgstr ""
+
+#: class/functions.class.php:1100
+msgid "Unapproved"
+msgstr ""
+
+#: class/functions.class.php:1108
+msgid "There was errors while sending this email"
+msgstr ""
+
+#: class/functions.class.php:1134
+msgid "A donwload has been submited for approval"
+msgstr ""
+
+#: class/steps.class.php:62
+msgid "Please fill all required data before to preceed to next step!"
+msgstr ""
+
+#: cpanel.php:12
+msgid "Please login before to access this page!"
+msgstr ""
+
+#: cpanel.php:23 cpanel.php:28 submit.php:562
+msgid "Item not found. Please try again!"
+msgstr ""
+
+#: cpanel.php:31 submit.php:609
+msgid "You can not edit this download item!"
+msgstr ""
+
+#: cpanel.php:184
+msgid ""
+"Sorry, only the owner of this download item can request for its deletion."
+msgstr ""
+
+#: cpanel.php:203
+msgid "Download item information"
+msgstr ""
+
+#: cpanel.php:204
+msgid "Yes, I'm sure"
+msgstr ""
+
+#: cpanel.php:206
+#, php-format
+msgid "Do you really want to delete \"%s\"? This action can not be undone."
+msgstr ""
+
+#: cpanel.php:228
+msgid ""
+"We could not delete this download item. Please try again or contact the "
+"administrator."
+msgstr ""
+
+#: cpanel.php:256
+msgid "Download item deleted successfully."
+msgstr ""
+
+#: cpanel.php:266
+#, php-format
+msgid ""
+"Item marked to deletion successfully! From now and on, \"%s\" will be "
+"unavailable for download while administrators delete it."
+msgstr ""
+
+#: cpanel.php:272
+msgid "Item could not be marked to deletion! Please try again."
+msgstr ""
+
+#: cpanel.php:286
+msgid "Item restored successfully!"
+msgstr ""
+
+#: cpanel.php:288
+msgid "Item could not be restored! Please try again."
+msgstr ""
+
+#: cpanel.php:326
+msgid "%T%-%d%-%Y%"
+msgstr ""
+
+#: cpanel.php:357 cpanel.php:372 include/cpanel/features.php:105
+#: include/cpanel/files.php:177 include/cpanel/logs.php:98
+#: include/cpanel/screens.php:131 templates/admin/dtrans-categories.php:74
+#: templates/admin/dtrans-categories.php:110
+#: templates/admin/dtrans-features.php:31
+#: templates/admin/dtrans-features.php:41 templates/admin/dtrans-files.php:37
+#: templates/admin/dtrans-files.php:48 templates/admin/dtrans-items.php:62
+#: templates/admin/dtrans-items.php:222 templates/admin/dtrans-licenses.php:78
+#: templates/admin/dtrans-logs.php:33 templates/admin/dtrans-logs.php:43
+#: templates/admin/dtrans-platforms.php:59
+#: templates/admin/dtrans-screens.php:32 templates/admin/dtrans-screens.php:42
+msgid "ID"
+msgstr ""
+
+#: cpanel.php:358 cpanel.php:373 include/cpanel/features.php:106
+#: templates/admin/dtrans-items.php:66 templates/admin/dtrans-items.php:226
+#: templates/admin/dtrans-licenses.php:79
+#: templates/admin/dtrans-platforms.php:60
+msgid "Name"
+msgstr ""
+
+#: cpanel.php:359 cpanel.php:376 include/cpanel/features.php:107
+#: include/cpanel/files.php:184 include/cpanel/logs.php:100
+#: include/cpanel/screens.php:135 templates/admin/dtrans-features.php:33
+#: templates/admin/dtrans-features.php:43
+msgid "Created"
+msgstr ""
+
+#: cpanel.php:360
+msgid "Last Modification"
+msgstr ""
+
+#: cpanel.php:361 templates/mail/en/delete-report.php:215
+msgid "Status"
+msgstr ""
+
+#: cpanel.php:362 cpanel.php:378 include/cpanel/files.php:183 item.php:280
+#: templates/admin/dtrans-files.php:39 templates/admin/dtrans-files.php:50
+#: templates/admin/dtrans-statistics.php:93
+msgid "Hits"
+msgstr ""
+
+#: cpanel.php:363
+msgid "There are not download items created yet"
+msgstr ""
+
+#: cpanel.php:365 templates/admin/dtrans-items.php:34
+#: templates/admin/dtrans-items.php:259
+msgid "Not approved"
+msgstr ""
+
+#: cpanel.php:366 templates/admin/dtrans-features.php:35
+#: templates/admin/dtrans-features.php:45 templates/admin/dtrans-files.php:43
+#: templates/admin/dtrans-files.php:54 templates/admin/dtrans-items.php:84
+#: templates/admin/dtrans-items.php:244 templates/admin/dtrans-licenses.php:82
+#: templates/admin/dtrans-logs.php:37 templates/admin/dtrans-logs.php:47
+#: templates/admin/dtrans-platforms.php:61
+#: templates/admin/dtrans-screens.php:36 templates/admin/dtrans-screens.php:46
+msgid "Options"
+msgstr ""
+
+#: cpanel.php:367 templates/admin/dtrans-items.php:105
+msgid "Waiting for approval"
+msgstr ""
+
+#: cpanel.php:368
+msgid "Waiting deletion by administrators"
+msgstr ""
+
+#: cpanel.php:369
+msgid "Cancel deletion request"
+msgstr ""
+
+#: cpanel.php:374 include/js-strings.php:47 templates/admin/dtrans-items.php:39
+#: templates/admin/dtrans-items.php:109 templates/admin/dtrans-items.php:121
+#: templates/admin/dtrans-items.php:264
+msgid "Protected"
+msgstr ""
+
+#: cpanel.php:377 templates/admin/dtrans-features.php:34
+#: templates/admin/dtrans-features.php:44
+msgid "Modified"
+msgstr ""
+
+#: cpanel.php:379 include/cpanel/features.php:111 include/cpanel/files.php:186
+#: include/cpanel/logs.php:102 include/cpanel/screens.php:137
+#: include/js-strings.php:58 templates/admin/dtrans-categories.php:92
+#: templates/admin/dtrans-features.php:62
+#: templates/admin/dtrans-features.php:64 templates/admin/dtrans-files.php:72
+#: templates/admin/dtrans-files.php:74 templates/admin/dtrans-files.php:113
+#: templates/admin/dtrans-files.php:115 templates/admin/dtrans-items.php:127
+#: templates/admin/dtrans-licenses.php:109
+#: templates/admin/dtrans-licenses.php:111 templates/admin/dtrans-logs.php:68
+#: templates/admin/dtrans-platforms.php:78
+#: templates/admin/dtrans-platforms.php:80
+#: templates/admin/dtrans-screens.php:73 templates/admin/dtrans-screens.php:75
+msgid "Edit"
+msgstr ""
+
+#: cpanel.php:380 include/cpanel/features.php:112 include/cpanel/files.php:187
+#: include/cpanel/logs.php:103 include/cpanel/screens.php:138
+#: include/js-strings.php:59 templates/admin/dtrans-categories.php:59
+#: templates/admin/dtrans-categories.php:93
+#: templates/admin/dtrans-categories.php:127
+#: templates/admin/dtrans-features.php:66
+#: templates/admin/dtrans-features.php:68 templates/admin/dtrans-files.php:76
+#: templates/admin/dtrans-files.php:78 templates/admin/dtrans-files.php:117
+#: templates/admin/dtrans-files.php:119 templates/admin/dtrans-items.php:41
+#: templates/admin/dtrans-items.php:168 templates/admin/dtrans-items.php:266
+#: templates/admin/dtrans-licenses.php:60
+#: templates/admin/dtrans-licenses.php:113
+#: templates/admin/dtrans-licenses.php:115
+#: templates/admin/dtrans-licenses.php:128 templates/admin/dtrans-logs.php:70
+#: templates/admin/dtrans-logs.php:72 templates/admin/dtrans-platforms.php:45
+#: templates/admin/dtrans-platforms.php:82
+#: templates/admin/dtrans-platforms.php:84
+#: templates/admin/dtrans-platforms.php:98
+#: templates/admin/dtrans-screens.php:10 templates/admin/dtrans-screens.php:77
+#: templates/admin/dtrans-screens.php:79
+msgid "Delete"
+msgstr ""
+
+#: cpanel.php:381
+msgid "Waiting Deletion"
+msgstr ""
+
+#: cpanel.php:386
+msgid "Cancel Deletion"
+msgstr ""
+
+#: events/rmcommon.php:66
+msgid "All Recent Downloads"
+msgstr ""
+
+#: events/rmcommon.php:68
+msgid "Show all recent downloads"
+msgstr ""
+
+#: events/rmcommon.php:87
+msgid "Downloads by category"
+msgstr ""
+
+#: events/rmcommon.php:88
+msgid "Select a category to see the downloads published recently."
+msgstr ""
+
+#: explore.php:21
+msgid "Invalid parameters"
+msgstr ""
+
+#: explore.php:26
+msgid "You are not authorized to view this section!"
+msgstr ""
+
+#: explore.php:31
+msgid "Updated Downloads"
+msgstr ""
+
+#: explore.php:32
+msgid "Most Downloaded"
+msgstr ""
+
+#: explore.php:33
+msgid "Best Rated Downloads"
+msgstr ""
+
+#: explore.php:34
+#, php-format
+msgid "Downloads of %s"
+msgstr ""
+
+#: getfile.php:22
+msgid "File not found!"
+msgstr ""
+
+#: getfile.php:30
+msgid "Software does not exists!"
+msgstr ""
+
+#: getfile.php:36
+msgid "You must sign up before to download this file!"
+msgstr ""
+
+#: getfile.php:44
+msgid "Sorry, you don't have permission to download this file!"
+msgstr ""
+
+#: getfile.php:53
+msgid "You have reached your download limit for this file!"
+msgstr ""
+
+#: getfile.php:79
+#, php-format
+msgid "Downloading %s"
+msgstr ""
+
+#: getfile.php:80
+#, php-format
+msgid "Your %s download will start shortly..."
+msgstr ""
+
+#: getfile.php:81
+#, php-format
+msgid "Problems with the download? Please %s to download immediately."
+msgstr ""
+
+#: getfile.php:81
+msgid "use this link"
+msgstr ""
+
+#: getfile.php:82
+#, php-format
+msgid "Version: %s"
+msgstr ""
+
+#: getfile.php:83
+#, php-format
+msgid "File name: %s"
+msgstr ""
+
+#: getfile.php:84
+#, php-format
+msgid "Size: %s"
+msgstr ""
+
+#: getfile.php:89
+#, php-format
+msgid "Your %s download will start in {x} seconds..."
+msgstr ""
+
+#: getfile.php:127
+msgid "We're sorry but specified file does not exists!"
+msgstr ""
+
+#: getfile.php:158
+msgid "We're sorry but selected file does not exists!"
+msgstr ""
+
+#: home.php:44
+msgid "New Downloads"
+msgstr ""
+
+#: home.php:46 item.php:246
+msgid "Updated"
+msgstr ""
+
+#: home.php:53
+msgid "View More +"
+msgstr ""
+
+#: include/cpanel/features.php:53 include/cpanel/features.php:54
+msgid "%m%/%d%/%Y%"
+msgstr ""
+
+#: include/cpanel/features.php:67
+#, php-format
+msgid "Editing feature of \"%s\""
+msgstr ""
+
+#: include/cpanel/features.php:67
+#, php-format
+msgid "New feature for \"%s\""
+msgstr ""
+
+#: include/cpanel/features.php:69 include/cpanel/files.php:108
+#: include/cpanel/logs.php:67 include/cpanel/screens.php:78
+msgid "Download item"
+msgstr ""
+
+#: include/cpanel/features.php:72 templates/admin/dtrans-form-features.php:13
+msgid "Feature title"
+msgstr ""
+
+#: include/cpanel/features.php:73 templates/admin/dtrans-categories.php:19
+msgid "Short name"
+msgstr ""
+
+#: include/cpanel/features.php:74 templates/admin/dtrans-form-features.php:26
+msgid "Feature content"
+msgstr ""
+
+#: include/cpanel/features.php:88 templates/admin/dtrans-form-features.php:43
+msgid "Save Feature"
+msgstr ""
+
+#: include/cpanel/features.php:108
+msgid "modified"
+msgstr ""
+
+#: include/cpanel/features.php:109 templates/admin/dtrans-logs.php:36
+#: templates/admin/dtrans-logs.php:46
+msgid "Content"
+msgstr ""
+
+#: include/cpanel/features.php:110
+msgid "There are not features in this download item"
+msgstr ""
+
+#: include/cpanel/features.php:168
+msgid "Feature could not be saved! Please try again."
+msgstr ""
+
+#: include/cpanel/features.php:171
+msgid ""
+"Feature saved correctly, however custom fields could not be stored in "
+"database."
+msgstr ""
+
+#: include/cpanel/features.php:186
+msgid "Specified feature is not valid!"
+msgstr ""
+
+#: include/cpanel/features.php:189
+msgid "Feature could not be deleted! Please try again."
+msgstr ""
+
+#: include/cpanel/features.php:191
+msgid "Feature deleted successfully!"
+msgstr ""
+
+#: include/cpanel/files.php:101
+#, php-format
+msgid "Editing file of \"%s\""
+msgstr ""
+
+#: include/cpanel/files.php:101
+#, php-format
+msgid "New file for \"%s\""
+msgstr ""
+
+#: include/cpanel/files.php:110
+msgid "File title"
+msgstr ""
+
+#: include/cpanel/files.php:127 include/cpanel/files.php:179
+#: templates/admin/dtrans-files.php:41 templates/admin/dtrans-files.php:52
+msgid "Group"
+msgstr ""
+
+#: include/cpanel/files.php:128 templates/admin/dtrans-files-form.php:46
+#: templates/admin/dtrans-files.php:97
+msgid "Select group..."
+msgstr ""
+
+#: include/cpanel/files.php:133
+msgid "Default file"
+msgstr ""
+
+#: include/cpanel/files.php:134 templates/admin/dtrans-files-form.php:33
+msgid "Remote file"
+msgstr ""
+
+#: include/cpanel/files.php:135 templates/admin/dtrans-files.php:38
+#: templates/admin/dtrans-files.php:49 templates/admin/dtrans-statistics.php:92
+msgid "File"
+msgstr ""
+
+#: include/cpanel/files.php:137
+msgid "Current file"
+msgstr ""
+
+#: include/cpanel/files.php:139
+msgid "File URL"
+msgstr ""
+
+#: include/cpanel/files.php:139
+msgid "Used only when remote file is activated."
+msgstr ""
+
+#: include/cpanel/files.php:151 templates/admin/dtrans-files-form.php:68
+msgid "Save File"
+msgstr ""
+
+#: include/cpanel/files.php:171
+msgid "Do you really want to delete selected file?"
+msgstr ""
+
+#: include/cpanel/files.php:178 include/cpanel/logs.php:99
+#: include/cpanel/screens.php:81 include/cpanel/screens.php:133 item.php:278
+#: templates/admin/dtrans-features.php:32
+#: templates/admin/dtrans-features.php:42 templates/admin/dtrans-screens.php:34
+#: templates/admin/dtrans-screens.php:44
+msgid "Title"
+msgstr ""
+
+#: include/cpanel/files.php:180
+msgid "Remote"
+msgstr ""
+
+#: include/cpanel/files.php:181
+msgid "Attributes"
+msgstr ""
+
+#: include/cpanel/files.php:182 item.php:279
+msgid "Size"
+msgstr ""
+
+#: include/cpanel/files.php:185
+msgid "There are not files in this download item"
+msgstr ""
+
+#: include/cpanel/files.php:227 include/cpanel/logs.php:144
+msgid "Another log with same title already exists!"
+msgstr ""
+
+#: include/cpanel/files.php:233
+msgid "You must provide a file to upload!"
+msgstr ""
+
+#: include/cpanel/files.php:235
+msgid "You must provide a file URL when remote type is activated!"
+msgstr ""
+
+#: include/cpanel/files.php:254 include/cpanel/files.php:257
+msgid "File could not be uploaded!, Please try again."
+msgstr ""
+
+#: include/cpanel/files.php:273
+msgid "File could not be saved! Please try again."
+msgstr ""
+
+#: include/cpanel/files.php:278
+msgid "File saved successfully!"
+msgstr ""
+
+#: include/cpanel/files.php:291
+msgid "Specified file is not valid!"
+msgstr ""
+
+#: include/cpanel/files.php:294
+msgid "File could not be deleted! Please try again."
+msgstr ""
+
+#: include/cpanel/logs.php:65
+#, php-format
+msgid "Editing log of \"%s\""
+msgstr ""
+
+#: include/cpanel/logs.php:65
+#, php-format
+msgid "New log for \"%s\""
+msgstr ""
+
+#: include/cpanel/logs.php:83
+msgid "Save Log"
+msgstr ""
+
+#: include/cpanel/logs.php:101
+msgid "There are not logs for this download item"
+msgstr ""
+
+#: include/cpanel/logs.php:152
+msgid "Log could not be saved! Please try again."
+msgstr ""
+
+#: include/cpanel/logs.php:154
+msgid "Log saved successfully!"
+msgstr ""
+
+#: include/cpanel/logs.php:167
+msgid "Specified log is not valid!"
+msgstr ""
+
+#: include/cpanel/logs.php:170
+msgid "Log could not be deleted! Please try again."
+msgstr ""
+
+#: include/cpanel/logs.php:172
+msgid "Log deleted successfully!"
+msgstr ""
+
+#: include/cpanel/screens.php:59 include/cpanel/screens.php:64
+msgid "Invalid screen"
+msgstr ""
+
+#: include/cpanel/screens.php:75
+#, php-format
+msgid "Edit Screenshot of %s"
+msgstr ""
+
+#: include/cpanel/screens.php:75
+#, php-format
+msgid "Add screen for %s"
+msgstr ""
+
+#: include/cpanel/screens.php:89
+msgid "Image URL"
+msgstr ""
+
+#: include/cpanel/screens.php:95
+msgid "Image file"
+msgstr ""
+
+#: include/cpanel/screens.php:100
+msgid "Current image"
+msgstr ""
+
+#: include/cpanel/screens.php:113
+msgid "Save Screenshot"
+msgstr ""
+
+#: include/cpanel/screens.php:132 templates/admin/dtrans-screens.php:33
+#: templates/admin/dtrans-screens.php:43
+msgid "Image"
+msgstr ""
+
+#: include/cpanel/screens.php:136
+msgid "There are not screenshots in this download item"
+msgstr ""
+
+#: include/cpanel/screens.php:164 include/cpanel/screens.php:278
+msgid "Specified screenshot is not valid!"
+msgstr ""
+
+#: include/cpanel/screens.php:174 include/cpanel/screens.php:182
+#: include/cpanel/screens.php:259 include/cpanel/screens.php:261
+msgid "Already exist another screenshot with the same name!"
+msgstr ""
+
+#: include/cpanel/screens.php:223 include/cpanel/screens.php:229
+#: include/cpanel/screens.php:232
+msgid "Image could not be upload due to an internal error!"
+msgstr ""
+
+#: include/cpanel/screens.php:264
+msgid "Screenshot saved successfully!"
+msgstr ""
+
+#: include/cpanel/screens.php:281
+msgid "Screenshot could not be deleted! Please try again."
+msgstr ""
+
+#: include/cpanel/screens.php:283
+msgid "Screenshot deleted successfully!"
+msgstr ""
+
+#: include/fe-js-strings.php:8
+msgid "There are some errors in data. Please verify input fields in red color."
+msgstr ""
+
+#: include/fe-js-strings.php:9
+msgid "Do you relly want to delete selected item?"
+msgstr ""
+
+#: include/fe-js-strings.php:10
+msgid "You must to select an item before to do this!"
+msgstr ""
+
+#: include/js-strings.php:40
+msgid "Verifying form fields..."
+msgstr ""
+
+#: include/js-strings.php:41
+msgid ""
+"There are some errors in form fields. Please verify those fields marked with "
+"red color"
+msgstr ""
+
+#: include/js-strings.php:42
+msgid "Form fields verified successfully!"
+msgstr ""
+
+#: include/js-strings.php:43
+msgid "Saving Download..."
+msgstr ""
+
+#: include/js-strings.php:44
+msgid "Applying changes. Please wait a second..."
+msgstr ""
+
+#: include/js-strings.php:46 templates/admin/dtrans-items.php:121
+msgid "Normal"
+msgstr ""
+
+#: include/js-strings.php:48
+msgid "Before to run this action, you must select at least one item!"
+msgstr ""
+
+#: include/js-strings.php:49
+msgid "You must select at least one feature before to perform this action!"
+msgstr ""
+
+#: include/js-strings.php:50
+msgid "You must select at least one image!"
+msgstr ""
+
+#: include/js-strings.php:51
+msgid "Do you really want to delete selected items?"
+msgstr ""
+
+#: include/js-strings.php:52
+msgid "Do you really want to delete selected features?"
+msgstr ""
+
+#: include/js-strings.php:53
+msgid "Provide a group name!"
+msgstr ""
+
+#: include/js-strings.php:54
+msgid ""
+"Do you really want to delete this file? You will not be able to recover it!"
+msgstr ""
+
+#: include/js-strings.php:55
+msgid "Before to save details select a file!"
+msgstr ""
+
+#: include/js-strings.php:56
+msgid "Before to save details provide a file URL!"
+msgstr ""
+
+#: include/js-strings.php:57
+msgid "You must provide a title for this item"
+msgstr ""
+
+#: include/js-strings.php:60
+msgid "Update Group"
+msgstr ""
+
+#: include/js-strings.php:61 templates/admin/dtrans-files.php:16
+msgid "Create Group"
+msgstr ""
+
+#: include/js-strings.php:63 templates/admin/dtrans-files-form.php:39
+msgid "Title:"
+msgstr ""
+
+#: include/js-strings.php:64
+msgid "Description:"
+msgstr ""
+
+#: include/js-strings.php:65
+msgid "Do you really want to delete selected images (screenshots)?"
+msgstr ""
+
+#: include/js-strings.php:66 templates/admin/dtrans-metas.php:61
+msgid "Delete Field"
+msgstr ""
+
+#: include/js-strings.php:67
+msgid "There is another field with same name."
+msgstr ""
+
+#: include/js-strings.php:68
+msgid "You must specify a name for this custom field!"
+msgstr ""
+
+#: include/js-strings.php:69
+msgid "Insert Screenshots"
+msgstr ""
+
+#: include/permissions.php:34
+msgid "Submit new downloads"
+msgstr ""
+
+#: include/permissions.php:40
+msgid "Specify groups permissions for downloads"
+msgstr ""
+
+#: include/permissions.php:46
+msgid "Specify download limit number per user"
+msgstr ""
+
+#: include/permissions.php:52
+msgid "Approve submitted downloads immediately"
+msgstr ""
+
+#: include/permissions.php:58
+msgid "Approve submitted modifications immediately"
+msgstr ""
+
+#: include/permissions.php:64
+msgid "Create featured downloads"
+msgstr ""
+
+#: include/permissions.php:70
+msgid "Create password protected items"
+msgstr ""
+
+#: include/permissions.php:76
+msgid "Delete their own download items"
+msgstr ""
+
+#: include/smarty/function.dtcategories.php:46
+#, php-format
+msgid "in %s"
+msgstr ""
+
+#: include/smarty/function.ourRate.php:38
+msgid "Not rated"
+msgstr ""
+
+#: include/smarty/function.ourRate.php:39
+msgid "Very bad"
+msgstr ""
+
+#: include/smarty/function.ourRate.php:40
+msgid "Bad"
+msgstr ""
+
+#: include/smarty/function.ourRate.php:41
+msgid "Not so bad"
+msgstr ""
+
+#: include/smarty/function.ourRate.php:42
+msgid "To improve"
+msgstr ""
+
+#: include/smarty/function.ourRate.php:43
+msgid "Acceptable"
+msgstr ""
+
+#: include/smarty/function.ourRate.php:44
+msgid "Useful"
+msgstr ""
+
+#: include/smarty/function.ourRate.php:45
+msgid "Good"
+msgstr ""
+
+#: include/smarty/function.ourRate.php:46
+msgid "Very good"
+msgstr ""
+
+#: include/smarty/function.ourRate.php:47
+msgid "Excelent"
+msgstr ""
+
+#: include/smarty/function.ourRate.php:48
+msgid "Must have"
+msgstr ""
+
+#: include/submit-publish.php:114
+msgid "Another download item with same name already exists! Please try again."
+msgstr ""
+
+#: include/tasks.php:112
+msgid "Alert for download inactivity!!"
+msgstr ""
+
+#: include/tasks.php:168
+msgid "For deletion"
+msgstr ""
+
+#: include/tasks.php:218
+msgid "Y-m-d H:i:s"
+msgstr ""
+
+#: include/tasks.php:219 xoops_version.php:402
+msgid "Mark for deletion"
+msgstr ""
+
+#: include/tasks.php:219 xoops_version.php:403
+msgid "Delete inmediatly"
+msgstr ""
+
+#: include/tasks.php:220
+msgid "D-Transport maintenance report"
+msgstr ""
+
+#: item.php:31
+msgid "This item is not available for download at this moment!"
+msgstr ""
+
+#: item.php:38
+msgid "Internal Error! Please try again later"
+msgstr ""
+
+#: item.php:235
+msgid "<strong>Related</strong> Downloads"
+msgstr ""
+
+#: item.php:240
+msgid ""
+"This item has not been approved yet! You can view this information but other "
+"users can not."
+msgstr ""
+
+#: item.php:245
+msgid "New"
+msgstr ""
+
+#: item.php:247 templates/admin/dtrans-logs.php:35
+#: templates/admin/dtrans-logs.php:45
+msgid "Date"
+msgstr ""
+
+#: item.php:248
+msgid "Author:"
+msgstr ""
+
+#: item.php:249 templates/admin/dtrans-items.php:178
+msgid "Version:"
+msgstr ""
+
+#: item.php:250
+msgid "Created on:"
+msgstr ""
+
+#: item.php:251
+msgid "Updated on:"
+msgstr ""
+
+#: item.php:252
+msgid "Languages:"
+msgstr ""
+
+#: item.php:253
+msgid "Supported platforms:"
+msgstr ""
+
+#: item.php:254
+msgid "License:"
+msgstr ""
+
+#: item.php:255
+msgid "Download Ratings"
+msgstr ""
+
+#: item.php:256
+msgid "Our Rating"
+msgstr ""
+
+#: item.php:257 xoops_version.php:248
+msgid "Users"
+msgstr ""
+
+#: item.php:258
+msgid "Your Rate:"
+msgstr ""
+
+#: item.php:259 templates/dtrans_users_rating.php:7
+#, php-format
+msgid "%u votes"
+msgstr ""
+
+#: item.php:260
+msgid "Download Now!"
+msgstr ""
+
+#: item.php:263
+msgid "Tags:"
+msgstr ""
+
+#: item.php:264
+msgid "Categories:"
+msgstr ""
+
+#: item.php:265 templates/widgets/dtrans-options.php:4 widgets/dt-items.php:91
+msgid "Download Options"
+msgstr ""
+
+#: item.php:266
+msgid "Download details"
+msgstr ""
+
+#: item.php:268
+msgid "Item <strong>Features</strong>"
+msgstr ""
+
+#: item.php:269
+msgid "Recent <strong>Changes</strong>"
+msgstr ""
+
+#: item.php:270 templates/admin/dtrans-statistics.php:69 xoops_version.php:752
+msgid "Comments"
+msgstr ""
+
+#: item.php:271
+msgid ""
+"You can choose between next download options if you prefer another file type "
+"or another location."
+msgstr ""
+
+#: item.php:273
+#, php-format
+msgid "%u images"
+msgstr ""
+
+#: licenses.php:58
+#, php-format
+msgid "Downloads licensed as %s"
+msgstr ""
+
+#: licenses.php:71
+#, php-format
+msgid "<strong>Downloads</strong> licenced as \"%s\""
+msgstr ""
+
+#: platforms.php:58
+#, php-format
+msgid "Downloads for %s"
+msgstr ""
+
+#: platforms.php:75
+#, php-format
+msgid "<strong>Downloads</strong> for \"%s\""
+msgstr ""
+
+#: rss.php:30 rss.php:36
+msgid "Sorry, specified category was not foud!"
+msgstr ""
+
+#: rss.php:40
+#, php-format
+msgid "%s :: Downloads in %s"
+msgstr ""
+
+#: rss.php:74
+msgid "All recent published items"
+msgstr ""
+
+#: submit.php:14
+msgid "Operation not allowed!"
+msgstr ""
+
+#: submit.php:155
+msgid "Overall Progress"
+msgstr ""
+
+#: submit.php:156 templates/admin/dtrans-form-items.php:15
+#: templates/sets/default/dt-submit.php:11
+msgid "Item name"
+msgstr ""
+
+#: submit.php:157
+msgid "Name of download item..."
+msgstr ""
+
+#: submit.php:158 templates/admin/dtrans-form-items.php:36
+#: templates/sets/default/dt-submit.php:32
+msgid "Short description"
+msgstr ""
+
+#: submit.php:159
+msgid "Full description"
+msgstr ""
+
+#: submit.php:160
+msgid "Basic Item Data"
+msgstr ""
+
+#: submit.php:161
+msgid "Basic"
+msgstr ""
+
+#: submit.php:162
+msgid "Details"
+msgstr ""
+
+#: submit.php:163
+msgid "Siguiente"
+msgstr ""
+
+#: submit.php:164
+msgid "Anterior"
+msgstr ""
+
+#: submit.php:168
+msgid "Submit Download Item"
+msgstr ""
+
+#: submit.php:235 submit.php:242
+msgid "You must provide all required data before to create a new download!"
+msgstr ""
+
+#: submit.php:409
+msgid "Another item with same name already exists"
+msgstr ""
+
+#: submit.php:434
+msgid "Download item could not be saved! Please try again."
+msgstr ""
+
+#: submit.php:450
+msgid ""
+"You are not allowed to publish downloads directly. The item will be stored "
+"for revision by our administrators. Once the file is approved, we will "
+"notify you."
+msgstr ""
+
+#: submit.php:540
+msgid "Download item saved successfully"
+msgstr ""
+
+#: submit.php:548
+msgid "Errors occurs while trying to save download item. Please try again"
+msgstr ""
+
+#: submit.php:589
+msgid "Seems to be that this item is not valid!"
+msgstr ""
+
+#: tags.php:62 tags.php:82
+#, php-format
+msgid "Downloads tagged as \"%s\""
+msgstr ""
+
+#: templates/admin/dtrans-categories.php:1
+msgid "Categories Management"
+msgstr ""
+
+#: templates/admin/dtrans-categories.php:9
+#: templates/admin/dtrans-categories.php:39
+msgid "Add Category"
+msgstr ""
+
+#: templates/admin/dtrans-categories.php:56
+#: templates/admin/dtrans-categories.php:124
+#: templates/admin/dtrans-features.php:8 templates/admin/dtrans-features.php:80
+#: templates/admin/dtrans-items.php:32 templates/admin/dtrans-items.php:257
+#: templates/admin/dtrans-licenses.php:59
+#: templates/admin/dtrans-licenses.php:127 templates/admin/dtrans-logs.php:9
+#: templates/admin/dtrans-logs.php:84 templates/admin/dtrans-platforms.php:44
+#: templates/admin/dtrans-platforms.php:97
+msgid "Bulk actions..."
+msgstr ""
+
+#: templates/admin/dtrans-categories.php:57
+#: templates/admin/dtrans-categories.php:125
+msgid "Activate"
+msgstr ""
+
+#: templates/admin/dtrans-categories.php:58
+#: templates/admin/dtrans-categories.php:126
+msgid "Deactivate"
+msgstr ""
+
+#: templates/admin/dtrans-categories.php:61
+#: templates/admin/dtrans-categories.php:129
+#: templates/admin/dtrans-features.php:11
+#: templates/admin/dtrans-features.php:83 templates/admin/dtrans-items.php:43
+#: templates/admin/dtrans-items.php:268 templates/admin/dtrans-licenses.php:63
+#: templates/admin/dtrans-licenses.php:131 templates/admin/dtrans-logs.php:12
+#: templates/admin/dtrans-logs.php:87 templates/admin/dtrans-platforms.php:47
+#: templates/admin/dtrans-platforms.php:100
+#: templates/admin/dtrans-screens.php:12
+msgid "Apply"
+msgstr ""
+
+#: templates/admin/dtrans-categories.php:77
+#: templates/admin/dtrans-categories.php:113
+msgid "Active"
+msgstr ""
+
+#: templates/admin/dtrans-features.php:9 templates/admin/dtrans-features.php:81
+msgid "Delete Features"
+msgstr ""
+
+#: templates/admin/dtrans-features.php:16
+msgid "New Feature"
+msgstr ""
+
+#: templates/admin/dtrans-features.php:24
+msgid "Existing Features"
+msgstr ""
+
+#: templates/admin/dtrans-features.php:51
+msgid "There are not features created for this download item"
+msgstr ""
+
+#: templates/admin/dtrans-files-form.php:1
+#, php-format
+msgid "New file in %s"
+msgstr ""
+
+#: templates/admin/dtrans-files-form.php:7
+msgid "Delete File"
+msgstr ""
+
+#: templates/admin/dtrans-files-form.php:17
+#, php-format
+msgid "You have a limit of %s per file."
+msgstr ""
+
+#: templates/admin/dtrans-files-form.php:25
+msgid "File Details"
+msgstr ""
+
+#: templates/admin/dtrans-files-form.php:28
+msgid "Fill the next fields to create the new file."
+msgstr ""
+
+#: templates/admin/dtrans-files-form.php:44
+msgid "Group:"
+msgstr ""
+
+#: templates/admin/dtrans-files-form.php:54
+msgid "File URL:"
+msgstr ""
+
+#: templates/admin/dtrans-files-form.php:62
+msgid "This is the default file"
+msgstr ""
+
+#: templates/admin/dtrans-files-form.php:89
+#: templates/admin/dtrans-files.php:151 templates/admin/dtrans-items.php:280
+msgid "Applying changes, please wait a second..."
+msgstr ""
+
+#: templates/admin/dtrans-files.php:7
+msgid "Add group of files"
+msgstr ""
+
+#: templates/admin/dtrans-files.php:12
+msgid "Group name:"
+msgstr ""
+
+#: templates/admin/dtrans-files.php:19
+msgid ""
+"Groups allows to organize different files according to specific features."
+msgstr ""
+
+#: templates/admin/dtrans-files.php:31
+#, php-format
+msgid "Files for %s"
+msgstr ""
+
+#: templates/admin/dtrans-files.php:40 templates/admin/dtrans-files.php:51
+msgid "External"
+msgstr ""
+
+#: templates/admin/dtrans-files.php:42 templates/admin/dtrans-files.php:53
+#: xoops_version.php:731
+msgid "Default"
+msgstr ""
+
+#: templates/admin/dtrans-files.php:60
+msgid "There are not files with specified parameters currently!"
+msgstr ""
+
+#: templates/admin/dtrans-files.php:107
+msgid "Set as default"
+msgstr ""
+
+#: templates/admin/dtrans-form-features.php:14
+msgid "e.g. Fully Responsive"
+msgstr ""
+
+#: templates/admin/dtrans-form-features.php:19
+msgid "Feature short name (optional)"
+msgstr ""
+
+#: templates/admin/dtrans-form-features.php:20
+msgid "e.g. fully-responsive"
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:18
+#: templates/sets/default/dt-submit.php:14
+msgid ""
+"Specify a name that identifies this download. This name must be unique and "
+"different of other downloads."
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:23
+#: templates/sets/default/dt-submit.php:19
+msgid "Item permalink:"
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:38
+msgid ""
+"This is a small description that will be used as an advance of the item."
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:72
+#: templates/sets/default/dt-submit.php:67
+msgid "Select the categories that you want to assign to this item."
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:97
+#: templates/sets/default/dt-submit.php:91
+msgid "Select the licenses that you want to assign to this item."
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:119
+#: templates/sets/default/dt-submit.php:112
+msgid "Select that platforms over this item can be used."
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:138
+#: templates/sets/default/dt-submit.php:130
+msgid "Allowed groups"
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:144
+#: templates/sets/default/dt-submit.php:136
+msgid "Only users that belong to selected groups, could donwload this item."
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:153
+#: templates/sets/default/dt-submit.php:144
+msgid "Download tags"
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:161
+#: templates/sets/default/dt-submit.php:152
+msgid "Add Tags"
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:164
+#: templates/sets/default/dt-submit.php:155
+msgid "Separate each tag with a comma (,)."
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:176
+#: templates/sets/default/dt-submit.php:167
+msgid "Click on any tag to delete it."
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:192
+msgid "Custom fields"
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:224
+msgid "Message to Owner"
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:230
+msgid ""
+"You can send a customized message to owner in order to inform about any "
+"detail related to this download item (e.g. approval or unapproval reasons)"
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:256 widgets/dt-items.php:55
+msgid "Default Image"
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:299
+msgid "Saving data..."
+msgstr ""
+
+#: templates/admin/dtrans-form-items.php:305
+msgid "Save Download"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:10
+msgid "Total Items"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:14
+msgid "Total of registered items"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:26 templates/admin/dtrans-statistics.php:15
+msgid "Total Downloads"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:30 templates/admin/dtrans-statistics.php:19
+#, php-format
+msgid "Last 30 days downloads: %s"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:42
+msgid "Items Waiting"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:46
+msgid "Items waiting for approval"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:58
+msgid "Total Categories"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:62
+#, php-format
+msgid "Inactive categories: %s"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:78
+#: templates/admin/dtrans-statistics.php:119
+msgid "Last 30 days activity"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:85
+msgid ""
+"This graph shows the total download activity in D-Transport in last 30 days."
+msgstr ""
+
+#: templates/admin/dtrans-index.php:97 templates/admin/dtrans-index.php:147
+msgid "Top Downloads"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:102
+msgid "Next are the 10 most downloaded files in D-Transport"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:123
+msgid "Rating"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:132
+msgid "Not rated yet"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:155
+msgid "Total Hits"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:177
+msgid "Support my Work"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:183
+msgid ""
+"Do you like my work? Then maybe you want support me to continue developing "
+"new modules."
+msgstr ""
+
+#: templates/admin/dtrans-index.php:195
+msgid "Latest News"
+msgstr ""
+
+#: templates/admin/dtrans-index.php:253
+#: templates/admin/dtrans-statistics.php:204
+msgid "Downloads total"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:6
+msgid "Search download:"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:7
+msgid "Search Now!"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:9
+msgid "Clear search"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:16
+msgid "Category:"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:18
+msgid "Select..."
+msgstr ""
+
+#: templates/admin/dtrans-items.php:35 templates/admin/dtrans-items.php:78
+#: templates/admin/dtrans-items.php:238 templates/admin/dtrans-items.php:260
+msgid "Featured"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:36 templates/admin/dtrans-items.php:261
+msgid "Not featured"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:37 templates/admin/dtrans-items.php:81
+#: templates/admin/dtrans-items.php:241 templates/admin/dtrans-items.php:262
+msgid "Daily"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:38 templates/admin/dtrans-items.php:263
+msgid "Not daily"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:40 templates/admin/dtrans-items.php:265
+msgid "Not protected"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:50
+msgid "Existing Downloads"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:69 templates/admin/dtrans-items.php:229
+#: templates/admin/dtrans-licenses.php:81
+msgid "Type"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:101
+msgid "Waiting for deletion"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:103
+msgid "Waiting for review"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:108
+msgid "Click for Data"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:109
+msgid "Protected with password"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:115
+msgid "(Deletion requested)"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:118
+#, php-format
+msgid "Last modification on %s by %s"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:132
+msgid "Not protected download"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:132
+msgid "Protected download"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:182
+msgid "Hits:"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:186
+msgid "Screenshots:"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:190
+msgid "Comments:"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:194
+msgid "Created:"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:198
+msgid "Last update:"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:202
+msgid "Votes:"
+msgstr ""
+
+#: templates/admin/dtrans-items.php:206
+msgid "Rating:"
+msgstr ""
+
+#: templates/admin/dtrans-licenses.php:1
+msgid "Licenses Management"
+msgstr ""
+
+#: templates/admin/dtrans-licenses.php:8
+msgid "Add New License"
+msgstr ""
+
+#: templates/admin/dtrans-licenses.php:13
+msgid "License name"
+msgstr ""
+
+#: templates/admin/dtrans-licenses.php:18
+msgid "License URL"
+msgstr ""
+
+#: templates/admin/dtrans-licenses.php:21
+msgid ""
+"This URL will be used to give a reference to users that need to know more "
+"about specified license."
+msgstr ""
+
+#: templates/admin/dtrans-licenses.php:26
+msgid "License type"
+msgstr ""
+
+#: templates/admin/dtrans-licenses.php:30
+msgid "Open source license"
+msgstr ""
+
+#: templates/admin/dtrans-licenses.php:36
+msgid "Restrictive license"
+msgstr ""
+
+#: templates/admin/dtrans-licenses.php:44
+msgid "Add License"
+msgstr ""
+
+#: templates/admin/dtrans-licenses.php:69
+msgid "Existing Licences"
+msgstr ""
+
+#: templates/admin/dtrans-licenses.php:80
+msgid "URL"
+msgstr ""
+
+#: templates/admin/dtrans-licenses.php:89
+msgid "There are not licenses created yet!"
+msgstr ""
+
+#: templates/admin/dtrans-logs.php:1
+#, php-format
+msgid "\"%s\" Change Log"
+msgstr ""
+
+#: templates/admin/dtrans-logs.php:10 templates/admin/dtrans-logs.php:85
+msgid "Delete Logs"
+msgstr ""
+
+#: templates/admin/dtrans-logs.php:26
+msgid "Changes Log"
+msgstr ""
+
+#: templates/admin/dtrans-logs.php:53
+msgid "There are not logs for this download item."
+msgstr ""
+
+#: templates/admin/dtrans-metas.php:6 templates/admin/dtrans-metas.php:50
+msgid "Field name"
+msgstr ""
+
+#: templates/admin/dtrans-metas.php:7 templates/admin/dtrans-metas.php:51
+msgid "Field value"
+msgstr ""
+
+#: templates/admin/dtrans-metas.php:20
+msgid "Select field..."
+msgstr ""
+
+#: templates/admin/dtrans-metas.php:25
+msgid "New Field"
+msgstr ""
+
+#: templates/admin/dtrans-metas.php:31
+msgid "You must specify a value for this custom field!"
+msgstr ""
+
+#: templates/admin/dtrans-metas.php:36
+msgid "Add Meta"
+msgstr ""
+
+#: templates/admin/dtrans-platforms.php:2
+msgid "Platforms Management"
+msgstr ""
+
+#: templates/admin/dtrans-platforms.php:9
+msgid "Please specify a name for this platform"
+msgstr ""
+
+#: templates/admin/dtrans-platforms.php:22
+msgid "Platform name"
+msgstr ""
+
+#: templates/admin/dtrans-platforms.php:29
+msgid "Save Platform"
+msgstr ""
+
+#: templates/admin/dtrans-platforms.php:29
+msgid "Add Platform"
+msgstr ""
+
+#: templates/admin/dtrans-platforms.php:52
+msgid "Existing Platforms"
+msgstr ""
+
+#: templates/admin/dtrans-platforms.php:67
+msgid "There are not platforms created yet!"
+msgstr ""
+
+#: templates/admin/dtrans-screens.php:1
+#, php-format
+msgid "\"%s\" Screenshots"
+msgstr ""
+
+#: templates/admin/dtrans-screens.php:9
+msgid "Bulk Actions..."
+msgstr ""
+
+#: templates/admin/dtrans-screens.php:17
+msgid "Add Image"
+msgstr ""
+
+#: templates/admin/dtrans-screens.php:25
+#, php-format
+msgid "Screenshots from \"%s\""
+msgstr ""
+
+#: templates/admin/dtrans-screens.php:52
+msgid "There are not screenshots created for this download item!"
+msgstr ""
+
+#: templates/admin/dtrans-statistics.php:1 widgets/dt-items.php:217
+#, php-format
+msgid "%s Statistics"
+msgstr ""
+
+#: templates/admin/dtrans-statistics.php:31
+msgid "Files Created"
+msgstr ""
+
+#: templates/admin/dtrans-statistics.php:35
+#, php-format
+msgid "Top file: %s"
+msgstr ""
+
+#: templates/admin/dtrans-statistics.php:51
+msgid "Rating Received"
+msgstr ""
+
+#: templates/admin/dtrans-statistics.php:55
+#, php-format
+msgid "Votes: %s"
+msgstr ""
+
+#: templates/admin/dtrans-statistics.php:73
+#, php-format
+msgid "Since: %s"
+msgstr ""
+
+#: templates/admin/dtrans-statistics.php:83
+msgid "Downloads per File"
+msgstr ""
+
+#: templates/admin/dtrans-statistics.php:86
+#, php-format
+msgid ""
+"Showing all files from %s. Those files that are not shown have zero "
+"downloads."
+msgstr ""
+
+#: templates/admin/dtrans-statistics.php:125
+#, php-format
+msgid "Next graph shows the total download activity for %s in last 30 days."
+msgstr ""
+
+#: templates/admin/dtrans-statistics.php:131
+msgid ""
+"Note that this graph include activity for all files available for this item."
+msgstr ""
+
+#: templates/admin/dtrans-statistics.php:141
+msgid "Activity per File"
+msgstr ""
+
+#: templates/admin/dtrans-statistics.php:147
+#, php-format
+msgid "Next are the top 5 files from %s."
+msgstr ""
+
+#: templates/admin/dtrans-statistics.php:259
+#, php-format
+msgid "%u Downloads"
+msgstr ""
+
+#: templates/dtrans_local_rating.php:1
+#, php-format
+msgid "%s rating: %s"
+msgstr ""
+
+#: templates/dtrans_users_rating.php:2
+#, php-format
+msgid "Rating: %s"
+msgstr ""
+
+#: templates/mail/en/delete-report.php:214
+msgid "Item"
+msgstr ""
+
+#: templates/mail/en/delete-report.php:222
+msgid "Failed"
+msgstr ""
+
+#: templates/sets/default/dt-site-rate.php:1
+#, php-format
+msgid "%s rating: %s/10"
+msgstr ""
+
+#: templates/sets/default/dt-submit.php:34
+msgid ""
+"This is a small description that will be used as an introduction of the item."
+msgstr ""
+
+#: templates/sets/default/dt-submit.php:192
+msgid "Save"
+msgstr ""
+
+#: templates/sets/default/dt-submit.php:197
+msgid "Submit for Review"
+msgstr ""
+
+#: templates/sets/default/dt-submit.php:203
+msgid "Publish Now"
+msgstr ""
+
+#: templates/sets/default/dt-submit.php:214
+msgid "Save changes as draft."
+msgstr ""
+
+#: templates/sets/default/dt-submit.php:219
+msgid "Save changes and request admin approval for publication."
+msgstr ""
+
+#: templates/sets/default/dt-submit.php:224
+msgid "Publish changes inmediatly."
+msgstr ""
+
+#: templates/sets/default/widgets/dt-image.php:3
+msgid "Featured Image"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-information.php:3
+#: templates/widgets/dtrans-information.php:4 widgets/dt-items.php:17
+msgid "Download Information"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-information.php:7
+#: templates/widgets/dtrans-information.php:8
+msgid "Current Version"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-information.php:9
+#: templates/widgets/dtrans-information.php:10
+msgid "Indicate the current version of this item."
+msgstr ""
+
+#: templates/sets/default/widgets/dt-information.php:13
+#: templates/widgets/dtrans-information.php:13
+msgid "Downloads limit per user"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-information.php:15
+#: templates/widgets/dtrans-information.php:15
+msgid ""
+"Users could download this item only this times. Leave 0 for unlimited times."
+msgstr ""
+
+#: templates/sets/default/widgets/dt-information.php:19
+#: templates/widgets/dtrans-information.php:18
+msgid "Available languages"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-information.php:21
+#: templates/widgets/dtrans-information.php:20
+msgid "Specify every language separated by comma."
+msgstr ""
+
+#: templates/sets/default/widgets/dt-information.php:28
+msgid "Publish:"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-information.php:38
+#: templates/widgets/dtrans-information.php:42
+msgid "Featured:"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-information.php:45
+#: templates/widgets/dtrans-information.php:46
+msgid "Protected:"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-information.php:53
+#: templates/widgets/dtrans-information.php:52
+msgid "Download password"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-information.php:55
+#: templates/widgets/dtrans-information.php:54
+msgid ""
+"If you specify a password for this item, users must know it in order to "
+"download files belonging to it."
+msgstr ""
+
+#: templates/sets/default/widgets/dt-information.php:56
+#: templates/widgets/dtrans-information.php:55
+msgid ""
+"If a password is provided for this item, the protected status will set to on "
+"automatically."
+msgstr ""
+
+#: templates/sets/default/widgets/dt-logo.php:4
+#: templates/widgets/dtrans-logo.php:5
+msgid "Logo Image"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-options.php:3
+msgid "Credits"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-options.php:8
+#: templates/widgets/dtrans-author.php:8
+#: templates/widgets/dtrans-options.php:64
+msgid "Author name"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-options.php:13
+#: templates/widgets/dtrans-author.php:12
+#: templates/widgets/dtrans-options.php:68
+msgid "Author URL"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-options.php:17
+#: templates/widgets/dtrans-author.php:16
+#: templates/widgets/dtrans-options.php:72
+msgid "Author Email"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-options.php:19
+#: templates/widgets/dtrans-author.php:18
+#: templates/widgets/dtrans-options.php:74
+msgid "This email will not be visible for users"
+msgstr ""
+
+#: templates/sets/default/widgets/dt-options.php:25
+#: templates/widgets/dtrans-author.php:24
+#: templates/widgets/dtrans-options.php:80
+msgid "Author can be contacted"
+msgstr ""
+
+#: templates/widgets/dtrans-author.php:4
+#: templates/widgets/dtrans-options.php:60
+msgid "Published by"
+msgstr ""
+
+#: templates/widgets/dtrans-information.php:24
+msgid "Site Rating:"
+msgstr ""
+
+#: templates/widgets/dtrans-information.php:35
+msgid "Approved:"
+msgstr ""
+
+#: templates/widgets/dtrans-options.php:28
+msgid "Enable alerts:"
+msgstr ""
+
+#: templates/widgets/dtrans-options.php:34
+msgid "Limit of days"
+msgstr ""
+
+#: templates/widgets/dtrans-options.php:36
+msgid ""
+"Maximum number of days that an item can be without downloads before to send "
+"an alert to author."
+msgstr ""
+
+#: templates/widgets/dtrans-options.php:39
+msgid "Alert mode"
+msgstr ""
+
+#: templates/widgets/dtrans-options.php:43 xoops_version.php:415
+msgid "Private message"
+msgstr ""
+
+#: templates/widgets/dtrans-options.php:49
+msgid "Email message"
+msgstr ""
+
+#: widgets/dt-items.php:190
+msgid "Item Options"
+msgstr ""
+
+#: xoops_version.php:19
+msgid "D-Transport"
+msgstr ""
+
+#: xoops_version.php:20
+msgid "Module for create a donwloads section in XOOPS"
+msgstr ""
+
+#: xoops_version.php:100
+msgid "Web Site"
+msgstr ""
+
+#: xoops_version.php:160
+msgid "Show comments for download items."
+msgstr ""
+
+#: xoops_version.php:162
+msgid "Download item to show in lists"
+msgstr ""
+
+#: xoops_version.php:163
+msgid "Download item to show in lists within explore page"
+msgstr ""
+
+#: xoops_version.php:165
+msgid "Show a list with related download items for single item"
+msgstr ""
+
+#: xoops_version.php:166
+msgid "Show items within a specific category"
+msgstr ""
+
+#: xoops_version.php:167
+msgid "Show items with a specific license"
+msgstr ""
+
+#: xoops_version.php:173
+msgid "Show administrative options for users in the frontend"
+msgstr ""
+
+#: xoops_version.php:174
+msgid "Shows a confirmation screen before to delete a download item."
+msgstr ""
+
+#: xoops_version.php:175
+msgid "Template to show the featured items list."
+msgstr ""
+
+#: xoops_version.php:176
+msgid "Template to show the list for selected items."
+msgstr ""
+
+#: xoops_version.php:177
+msgid "Shows the items according to exploring parameters."
+msgstr ""
+
+#: xoops_version.php:178
+msgid "Shows the items that belong to a specific platform."
+msgstr ""
+
+#: xoops_version.php:179
+msgid "Show screenshots for a download item in control panel."
+msgstr ""
+
+#: xoops_version.php:180
+msgid "Show features list for a download item in control panel."
+msgstr ""
+
+#: xoops_version.php:181
+msgid "Show logs list for a download item in control panel."
+msgstr ""
+
+#: xoops_version.php:182
+msgid "Show files list for a download item in control panel."
+msgstr ""
+
+#: xoops_version.php:183
+msgid "Show the header for Users Control Panel."
+msgstr ""
+
+#: xoops_version.php:184
+msgid "Show the toolbar to manage a specific download item."
+msgstr ""
+
+#: xoops_version.php:204
+msgid "Downloads list"
+msgstr ""
+
+#: xoops_version.php:205
+msgid "This block show the downloads list"
+msgstr ""
+
+#: xoops_version.php:214
+msgid "Popular searches"
+msgstr ""
+
+#: xoops_version.php:215
+msgid "Show a list of downloads for popular searches"
+msgstr ""
+
+#: xoops_version.php:225
+msgid "Show the categories tree for D-Transport"
+msgstr ""
+
+#: xoops_version.php:234
+msgid "Downloads Links"
+msgstr ""
+
+#: xoops_version.php:235
+msgid "Show links to navigate in the module"
+msgstr ""
+
+#: xoops_version.php:247
+msgid "General Options"
+msgstr ""
+
+#: xoops_version.php:250
+msgid "Appearance"
+msgstr ""
+
+#: xoops_version.php:251
+msgid "Maintenance"
+msgstr ""
+
+#: xoops_version.php:276
+msgid "Enable short URL"
+msgstr ""
+
+#: xoops_version.php:286
+msgid "Permalinks base path"
+msgstr ""
+
+#: xoops_version.php:287
+msgid "Don't start this value with a slash (/)"
+msgstr ""
+
+#: xoops_version.php:296
+msgid "Results per page"
+msgstr ""
+
+#: xoops_version.php:306
+msgid "Enable notifications for new downloads"
+msgstr ""
+
+#: xoops_version.php:316
+msgid "Groups to be notified for new submitted downloads"
+msgstr ""
+
+#: xoops_version.php:326
+msgid "Approve editions to existing downloads"
+msgstr ""
+
+#: xoops_version.php:336
+msgid "Notify for editions"
+msgstr ""
+
+#: xoops_version.php:346
+msgid "Minimum length of tags, in characters"
+msgstr ""
+
+#: xoops_version.php:356
+msgid "Enable alerts for inactivity"
+msgstr ""
+
+#: xoops_version.php:357
+msgid ""
+"By enabling this option D-TRansport will alert to owner users about download "
+"items that had not been updated for a specific time period."
+msgstr ""
+
+#: xoops_version.php:366
+msgid "Days without inactivity before to send an alert"
+msgstr ""
+
+#: xoops_version.php:367
+msgid ""
+"Owners of download items that had not been updated during this period of "
+"time will receive an alert in order to update data, otherwise download item "
+"could be deleted from database."
+msgstr ""
+
+#: xoops_version.php:376
+msgid "Enable automatic deletion for non updated download items"
+msgstr ""
+
+#: xoops_version.php:386
+msgid "Days without updates before to delete a download item"
+msgstr ""
+
+#: xoops_version.php:387
+msgid ""
+"When a download item had not been updated between this period of time, it "
+"will be deleted in order to maintain updated the database."
+msgstr ""
+
+#: xoops_version.php:396
+msgid "Automatic deletion mode"
+msgstr ""
+
+#: xoops_version.php:397
+msgid "Select the mode in which automatically deleted items will be processed."
+msgstr ""
+
+#: xoops_version.php:410
+msgid "Message type for alerts"
+msgstr ""
+
+#: xoops_version.php:415
+msgid "Email"
+msgstr ""
+
+#: xoops_version.php:421
+msgid "Interval in hours to send alerts for inactivity"
+msgstr ""
+
+#: xoops_version.php:431
+msgid "Use the internal cronjob emulator to check alerts"
+msgstr ""
+
+#: xoops_version.php:432
+#, php-format
+msgid ""
+"If you enable this option D-Transport will run a check automatically. If "
+"disabled, then you need to setup a cronjob that execute %s file."
+msgstr ""
+
+#: xoops_version.php:443
+msgid "Require login before to download a file"
+msgstr ""
+
+#: xoops_version.php:444
+msgid "If enabled, users must register before to downloading files."
+msgstr ""
+
+#: xoops_version.php:453
+msgid "Allow downloads submission"
+msgstr ""
+
+#: xoops_version.php:454
+msgid ""
+"Allows to users submit new download items from public section of module."
+msgstr ""
+
+#: xoops_version.php:463
+msgid "Groups than can submit new downloads"
+msgstr ""
+
+#: xoops_version.php:473
+msgid "Default groups that can download items"
+msgstr ""
+
+#: xoops_version.php:474
+msgid "These groups will be set as default when new items are created"
+msgstr ""
+
+#: xoops_version.php:483
+msgid "Allow votes from anonymous users"
+msgstr ""
+
+#: xoops_version.php:493
+msgid "Download limit per item for users"
+msgstr ""
+
+#: xoops_version.php:494
+msgid "Specify the times that a user can download a same download item"
+msgstr ""
+
+#: xoops_version.php:503
+msgid "Maximum users rating"
+msgstr ""
+
+#: xoops_version.php:504
+msgid ""
+"It is not recommended to change this value after that your site becomes "
+"public, due to calculations could be wrong."
+msgstr ""
+
+#: xoops_version.php:513
+msgid "Use decimals on ratings"
+msgstr ""
+
+#: xoops_version.php:526
+msgid "Allow logotypes for downloads"
+msgstr ""
+
+#: xoops_version.php:527
+msgid ""
+"By enabling this option, you will able to provide a image logotype for "
+"downloads. Note that logos must be smaller in order to work properly."
+msgstr ""
+
+#: xoops_version.php:536
+msgid "Maximum number of screenshots by download item"
+msgstr ""
+
+#: xoops_version.php:546
+msgid "Secure directory"
+msgstr ""
+
+#: xoops_version.php:547
+msgid ""
+"Specify the directory where secure download files will be stored. It is "
+"recomended that this directory will located outside from public directory."
+msgstr ""
+
+#: xoops_version.php:556
+msgid "General directory"
+msgstr ""
+
+#: xoops_version.php:557
+msgid ""
+"Specify the directory where general files will be stored. This directory "
+"will exists within your public html directory."
+msgstr ""
+
+#: xoops_version.php:566
+msgid "Show featured downloads list in home page"
+msgstr ""
+
+#: xoops_version.php:576
+msgid "Show featured downloads list at inner pages"
+msgstr ""
+
+#: xoops_version.php:586
+msgid "Limit number of featured downloads in list"
+msgstr ""
+
+#: xoops_version.php:596
+msgid "Show daily downloads list in home page"
+msgstr ""
+
+#: xoops_version.php:606
+msgid "Show daily downloads list at inner pages"
+msgstr ""
+
+#: xoops_version.php:616
+msgid "Limit number of daily downloads in list"
+msgstr ""
+
+#: xoops_version.php:631
+msgid "Size of files for download in MB"
+msgstr ""
+
+#: xoops_version.php:632
+#, php-format
+msgid ""
+"Your PHP configuration specify a limit of %s in posts requests and allows a "
+"upload max file size of %s"
+msgstr ""
+
+#: xoops_version.php:641
+msgid "Allowed file extensions"
+msgstr ""
+
+#: xoops_version.php:642
+msgid "Separate each extensión with \"|\"."
+msgstr ""
+
+#: xoops_version.php:651
+msgid "Limit number of downloads for home lists"
+msgstr ""
+
+#: xoops_version.php:661
+msgid "Number of days during downloads will consider as new"
+msgstr ""
+
+#: xoops_version.php:671
+msgid ""
+"Number of days during downloads will consider as updated after its edition"
+msgstr ""
+
+#: xoops_version.php:681
+msgid "Show categories in home page and categories page"
+msgstr ""
+
+#: xoops_version.php:691
+msgid "Show related items"
+msgstr ""
+
+#: xoops_version.php:701
+msgid "Number of items in related items list"
+msgstr ""
+
+#: xoops_version.php:711
+msgid "Time before to start downloads"
+msgstr ""
+
+#: xoops_version.php:712
+msgid ""
+"This value must be specified in seconds. If you wish to start download "
+"immediately then set this value to \"0\"."
+msgstr ""
+
+#: xoops_version.php:725
+msgid "Layout appearance"
+msgstr ""
+
+#: xoops_version.php:726
+msgid "Select the layout format to front-end"
+msgstr ""
+
+#: xoops_version.php:742
+msgid "Home Page"
+msgstr ""
+
+#: xoops_version.php:745
+msgid "Item details"
+msgstr ""
+
+#: xoops_version.php:748
+msgid "Download file"
+msgstr ""
+
+#: xoops_version.php:749
+msgid "Tags"
+msgstr ""
+
+#: xoops_version.php:750
+msgid "Submit download"
+msgstr ""
+
+#: xoops_version.php:751
+msgid "Search"
+msgstr ""
+
+#: xoops_version.php:753
+msgid "Control Panel"
+msgstr ""
+
+#: xoops_version.php:754
+msgid "Screenshots Management"
+msgstr ""

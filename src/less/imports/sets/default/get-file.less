@@ -1,0 +1,61 @@
+.get-file-header{
+  padding: 15px 0;
+  border-bottom: 3px solid @main-color;
+
+  .media-object{
+    width: 50px;
+    height: 50px;
+  }
+
+  .media-heading{
+    line-height: 1;
+    font-size: floor(@font-size-h2 * 0.8);
+  }
+
+  .item-data{
+    color: lighten(@gray, 30%);
+    font-size: floor(@font-size-base * 0.95);
+
+    > small{
+      display: inline-block;
+      margin: 0 5px;
+      vertical-align: text-top;
+    }
+
+  }
+
+  .media-right{
+    .cu-icon{
+      .cu-icon-size(40px);
+      .cu-icon-color(@main-color);
+    }
+  }
+
+}
+
+#will-start{
+
+  margin: 0 0 20px;
+  padding: 20px;
+  background-color: @getfile-bg;
+  border-radius: 0 0 @border-radius-large @border-radius-large;
+
+  .message{
+    text-transform: uppercase;
+    color: @main-color;
+    font-weight: 700;
+    font-size: ceil(@font-size-base * 1.1);
+    display: block;
+
+    > strong{
+      color: @text-color;
+    }
+  }
+
+  .problems{
+    font-size: @font-size-base;
+    color: lighten(@text-color, 10%);
+    display: block;
+  }
+
+}

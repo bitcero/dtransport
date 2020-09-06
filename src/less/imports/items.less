@@ -1,0 +1,315 @@
+@import "https://raw.githubusercontent.com/bitcero/rmcommon/master/src/helium/less/bootstrap/variables.less";
+@import "https://raw.githubusercontent.com/bitcero/rmcommon/master/src/helium/less/helium/variables.less";
+
+body.dt-body-form {
+  padding-bottom: 70px;
+}
+
+.dt-form-lists {
+  overflow: auto;
+  height: 150px;
+  border: 1px solid #CCC;
+  padding: 4px;
+  color: #666;
+  border-radius: 4px;
+}
+
+.dt_el_list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.dt_el_list ul li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+.dt_el_list ul li:hover {
+  background: #f2f2f2;
+}
+
+.dt_el_list ul li label {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.lt_list {
+  height: 100px;
+}
+
+// Item options
+.dt-item-opts {
+  vertical-align: middle !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  text-align: center;
+  padding: 0 !important;
+
+  a {
+    font-size: 16px;
+    display: block;
+    padding: 0 12px;
+    line-height: 58px;
+    color: #2a2a2a;
+    border-left: 1px solid rgba(0, 0, 0, 0.05) !important;
+
+    &:hover {
+      background: #2a2a2a;
+      color: #FFF;
+    }
+  }
+
+  &:last-child {
+    a {
+      border-right: 1px solid rgba(0, 0, 0, 0.05) !important;
+    }
+  }
+}
+
+.widgets_forms {
+  padding: 10px;
+}
+
+.widgets_forms .item {
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+.widgets_forms .item label {
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 0 2px 0;
+  font-size: 1em;
+}
+
+.widgets_forms input[type='text'],
+.widgets_forms select,
+.widgets_forms textarea,
+.widgets_forms input[type='password'] {
+  font-size: 1.1em;
+  border: 1px solid #CCC;
+  line-height: 1.2em;
+}
+
+div.widgets_forms div.item .fullwidth {
+  width: 90% !important;
+}
+
+.widgets_forms .description {
+  display: block;
+}
+
+.dt_el_list {
+  height: auto;
+  max-height: 150px;
+}
+
+#tags-container {
+  padding: 4px;
+}
+
+#tags-container span.tag {
+  display: inline-block;
+  padding: 4px 4px 4px 24px;
+  border: 1px solid #CCC;
+  background: url(../images/tag.png) no-repeat 4px;
+  margin: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#tags-container span.tag:hover {
+  background-color: #ebebeb;
+}
+
+.tag_legend {
+  font-size: 0.9em;
+}
+
+/** Widget options **/
+#dt-down-opts {
+  .nav-tabs {
+
+  }
+}
+
+/*
+#dt-down-opts ul{list-style: none; padding: 0; margin: 0; overflow: hidden;}
+#dt-down-opts ul li{float: left; margin-right: 1px;}
+#dt-down-opts ul li a{color: #333; display: block;padding: 6px 4px 6px 23px; font-weight: normal; background-color: #ccc; background-position: 3px; background-repeat: no-repeat; border: 1px solid #ebebeb; border-radius: 5px 5px 0 0;}
+#dt-down-opts ul li a.selected{background-color: #ebebeb; color: #000; cursor: default;}
+#dt-down-opts .widgets_forms{display: none; background: #ebebeb; border-radius: 0 5px 5px 5px; border-top: 1px solid #FFF;}
+#dt-down-opts #tab-alert{display: block;}
+*/
+
+#down-commands {
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: none;
+  text-align: center;
+  z-index: 200;
+}
+
+form#frm-items{
+
+  label.label_desc {
+    display: none;
+  }
+
+  label.error_field {
+    color: #C40821;
+    border-bottom: 1px dashed #C40821;
+    display: inline-block;
+  }
+
+  label.label-block {
+    display: block;
+    margin-bottom: 7px;
+  }
+
+}
+
+#item-permalink {
+  display: none;
+}
+
+#item-permalink label {
+  font-size: 0.9em;
+}
+
+#item-permalink .permalink {
+  position: relative;
+}
+
+#item-permalink .permalink > span {
+  background: #fff5b8;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#item-permalink .permalink em {
+  font-style: normal;
+}
+
+#item-permalink .permalink span.editing {
+  background: transparent;
+  border: 1px solid #CCC;
+  border-bottom: 0; border-top: 0;
+  box-shadow: inset 0 1px 3px #ebebeb;
+  padding: 0;
+  border-radius: 0;
+  overflow: hidden;
+  margin: -5px 0;
+  line-height: 1;
+  height: 34px;
+}
+
+#item-permalink .permalink span.editing input {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  padding: 4px;
+  font-size: 1em;
+  margin: 0;
+  width: 100px;
+}
+
+#item-permalink .permalink span.editing span {
+  padding: 4px;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  float: right;
+  box-shadow: inset 2px 2px 15px #fff;
+}
+
+#item-permalink .permalink span.editing span[rel='ok'] {
+  background: #ebebeb url(../images/ok.png) no-repeat center;
+  border-left: 1px solid #FFF;
+  border-radius: 0 3px 3px 0;
+}
+
+#item-permalink .permalink span.editing span[rel='cancel'] {
+  background: #ebebeb url(../images/no.png) no-repeat center;
+  border-right: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+}
+
+/* Blocker */
+#down-blocker {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #000;
+  opacity: .85;
+  -moz-opacity: .85;
+  z-index: 110;
+}
+
+#down-loader {
+  display: none;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 111;
+}
+
+#down-loader img {
+  background: url(../images/down_16.png) no-repeat center;
+}
+
+#down-loader span {
+  display: inline-block;
+  padding: 4px 15px;
+  margin-top: 10px;
+  background: #000;
+  color: #ccc;
+  border-radius: 5px;
+}
+
+#down-loader span.error {
+  background: #C40821 url(../images/error.png) no-repeat 10px;
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+#down-loader span.ok {
+  background: #FFFEDE url(../images/ok.png) no-repeat 10px;
+  padding-left: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+// Form Lists
+.dt-categories, .dt-platforms, .dt-licenses{
+  label{
+    font-weight: 400;
+  }
+}
+
+// Downloads list
+#dt-downloads-list{
+
+  .in-edition{
+
+    .cu-icon{
+      .cu-icon-size(14px);
+      .cu-icon-color(@color-orange);
+    }
+
+  }
+
+}
+
+

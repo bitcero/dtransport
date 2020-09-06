@@ -1,0 +1,82 @@
+.dt-standard-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  >.dt-item{
+    padding: 15px 20px;
+    border-bottom: 1px solid @list-item-border;
+
+    &:nth-child(even){
+      background-color: @striped-color;
+    }
+
+    .item-categories{
+      font-size: 0.8em;
+      color: @gray-light;
+
+      a{
+        color: @gray-light;
+        &:hover{
+          color: @main-color;
+        }
+      }
+    }
+
+    .item-name{
+      font-size: 1em;
+      font-weight: 700;
+      margin: 5px 0 0;
+      line-height: 1;
+    }
+
+    .item-description{
+      margin-bottom: 5px!important;
+      font-size: 0.9em;
+    }
+
+    .dt-rating{
+      display: inline-block;
+      margin-right: 10px;
+      vertical-align: text-bottom;
+    }
+
+    .item-comments{
+      display: inline-block;
+      font-size: 0.8em;
+      vertical-align: text-bottom;
+
+      .cu-icon{
+        vertical-align: text-bottom;
+        margin-right: 5px;
+        .cu-icon-size(12px);
+        .cu-icon-color(rgba(0,0,0,0.3));
+      }
+
+      a{
+        color: @gray-light;
+        &:hover{
+          color: @main-color;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .item-languages{
+      font-size: 0.8em;
+      display: block;
+      margin-top: 5px;
+    }
+
+    .item-right-column{
+      margin-top: 15px;
+
+      @media(min-width: @screen-sm){
+        margin-top: 0;
+        text-align: right;
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,98 @@
+.dt-list-title{
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: @highlight-bg;
+  padding: 10px;
+  border-top: 3px solid @main-color;
+  margin: 15px 0 0;
+}
+
+.dt-explore-list{
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  .dt-item{
+    padding: 15px;
+    border-bottom: 1px solid rgba(red(@main-color),green(@main-color),blue(@main-color),0.1);
+
+    &:after{
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    .item-chart{
+      text-align: center;
+
+      .c100{
+        margin-top: 6px;
+        margin-bottom: 6px;
+      }
+
+      .votes, .downs{
+        display: block;
+        font-size: floor(@font-size-base * 0.9);
+        color: @text-color;
+        line-height: 1;
+      }
+    }
+
+    &:hover{
+      background-color: darken(#FFF, 3%);
+    }
+  }
+
+  .media-object{
+    width: 50px;
+    height: 50px;
+  }
+
+  .languages{
+    font-size: 0.9em;
+    color: lighten(@text-color, 10%);
+  }
+
+  p{
+    font-size: 0.9em;
+    margin-bottom: 0!important;
+  }
+
+  a{
+    text-decoration: none;
+
+    &:hover{
+
+      .media-heading{
+        text-decoration: underline;
+      }
+
+    }
+
+  }
+
+  @media(min-width: 600px){
+
+    .dt-item{
+
+      .data{
+        float: left;
+        width: 80%;
+      }
+
+      .c100{
+        margin-top: 0;
+      }
+
+      .item-chart{
+        float: right;
+        width: 20%;
+      }
+
+    }
+
+  }
+
+}

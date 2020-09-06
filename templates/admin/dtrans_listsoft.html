@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="EXM" />
+<title><{$xoops_pagetitle}> &raquo; <{$xoops_sitename}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<script type="text/javascript" src="<{$xoops_url}>/include/xoops.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="../styles/softlist.css" />
+<script type="text/javascript">
+<!--
+	function selectSoftware(value){
+		var parent = window.opener;
+		if (parent==undefined) window.close();		
+
+		window.opener.location="<{$xoops_url}>/modules/dtransport/admin/<{$parent}>.php?item="+value;
+		window.close();
+	}
+-->
+</script>
+</head>
+<body>
+<form name="frmSearch" method="POST" action="dtlistsoft.php">
+<div id="selectedTitle">
+	<span><{$lang_search}> <input type="text" name="search" size="20" value="<{$search}>" />
+	<input type="hidden" name="parent" value="<{$parent}>" /></span>
+	<{$lang_listsoft}>
+</div>
+</form>
+<div id="selectedList">
+	<form name="frmlist" method="POST" action="dtlistsoft">
+		<{assign var="cols" value=2}>
+		<table class="outer" width="100%" cellspacing="1">
+			<{assign var="i" value=1}>
+			<tr class="even">
+			<{foreach item=item from=$items}>
+				<{if $i>$cols}>
+					</tr><tr class="<{cycle values="odd,even"}>">
+					<{assign var="i" value=1}>
+				<{/if}>
+				<td width="20%">
+					<a href="javascript:;" onclick="selectSoftware(<{$item.id}>);"><{$item.name}></a>
+					
+				</td>
+				<{assign var="i" value=$i+1}>
+			<{/foreach}>
+			</tr>
+			
+		</table>
+	</form>
+</div>
+<{$itemsNavPage}>
+</body>
+<html>

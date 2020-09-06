@@ -1,0 +1,31 @@
+body{
+	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	color: #000;
+	background-color: #FFF;
+}
+div#selectedTitle{
+	padding: 0 0 4px 0; 
+	border-bottom: 2px solid #CCC; 
+	font-weight: bold; 
+	overflow: hidden;
+	font-size: 0.9em;
+}
+div#selectedTitle span{
+	display: block;
+	float: right;
+}
+a{
+	color: #000;
+	text-decoration: underline;
+}
+a:hover{
+	color: #FF4400;
+	text-decoration: none;
+}
+.even, tr.even td, .odd, tr.odd td{
+	font-size: 0.9em;
+	border-bottom: 1px dotted #ccc;
+	background-color: #FFF;
+}

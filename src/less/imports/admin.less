@@ -1,0 +1,341 @@
+#status-bar{
+    position: fixed;
+    top: 0;left: 0; right: 0;
+    padding: 20px 20px 20px 52px;
+    background: #333 url(../images/loadsmall.gif) no-repeat 20px;
+    color: #fff; text-shadow: 1px 1px 0 #000;
+    display: none;
+    z-index: 1000;
+}
+#items-blocker{
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background: #fff;
+    opacity: .35;
+    -moz-opacity: .35;
+}
+
+/** Group **/
+.dt_group_form{
+    width: 300px;
+    padding-right: 10px;
+}
+.dt_group_form h3{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.dt_group_form label{
+    display: block;
+    padding: 2px 0;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.dt_group_form input[type="text"]{
+    width: 270px;
+    margin-bottom: 5px;
+}
+.items tr.deletion td{
+    color: #666;
+    background-color: #FFF5EA;
+    font-style: italic;
+}
+.items tr.deletion td a{
+    color: #000;
+}
+.dt_hidden_data{
+    display: none;
+}
+.dt_hidden_data td{vertical-align: top;}
+.dt_the_data > div{
+    padding: 2px 4px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+.dt_the_data > div > label{
+    font-weight: bold;
+}
+.dt_show_data{
+    cursor: pointer;
+}
+.dt_srh{
+    background: #FFFAD2;
+    color: #C9621D;
+}
+
+/* Options widget */
+.dt-w-options{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.dt-w-options:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.dt-w-options li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.dt-w-options li a{
+    display: block;
+    padding: 8px 0;
+    color: #555;
+    
+    .fa{
+        font-size: 28px;
+    }
+}
+.dt-w-options li a:hover{
+    
+}
+#dt-widget-statistics{
+    border: 0;
+    width: 100%;
+    height: 320px;
+}
+#dt-license-cover{
+  padding: 30px;
+}
+
+#dt-license-form{
+  background-color: #FFF;
+  max-width: 480px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+
+  .form-title{
+    //background-color: @color-green;
+    //color: @color-text-green;
+    font-weight: 400;
+    font-size: 1.9em;
+    color: #000;
+    //text-transform: uppercase;
+    padding: 20px 15px;
+    //border-radius: @border-radius-large @border-radius-large 0 0;
+    text-align: center;
+  }
+
+  .form-content{
+    padding: 20px;
+
+    .form-control{
+      border: 0;
+      border-bottom: 1px solid rgba(0,0,0,0.25);
+      box-shadow: none;
+      transition: ease all 250ms;
+      border-radius: 0;
+      font-weight: 400;
+      color: #000;
+
+      &:focus{
+        border-bottom: 2px solid @color-green;
+      }
+
+      &.has-error{
+        border-bottom: 2px solid @brand-danger;
+      }
+
+      + .error{
+        display: block;
+        color: @brand-danger;
+        padding: 5px 0 0 0;
+        font-size: 0.9em;
+        text-align: center;
+        display: none;
+      }
+      
+    }
+
+    label{
+      color: @color-green;
+    }
+
+    input::-moz-placeholder,
+    input::placeholder,
+    input::-webkit-input-placeholder,
+    input:-moz-placeholder,
+    input:-ms-input-placeholder{
+      color: rgba(0,0,0,0.2)!important;
+      font-weight: 300!important;
+    }
+
+    .form-group:nth-child(4){
+      margin-top: 40px;
+    }
+
+    .help-info{
+      text-align: center;
+      line-height: 1.5;
+      font-size: 1.1em;
+      font-weight: 300;
+      margin-top: 30px;
+
+      a{
+        font-weight: 400;
+        color: @color-green;
+
+        &:hover{
+          color: @color-orange;
+        }
+      }
+    }
+  }
+
+}
+
+#dt-license-info{
+  display: none;
+  background-color: #FFF;
+  max-width: 480px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+
+  .title{
+    color: @color-green;
+    font-weight: 400;
+    font-size: 1.9em;
+    padding: 20px 15px;
+    text-align: center;
+  }
+
+  .content{
+    padding: 0 20px 20px;
+  }
+
+  .info{
+    text-align: center;
+    margin-bottom: 15px;
+    color: lighten(@text-color, 10%);
+    font-size: 0.9em;
+  }
+
+  .table{
+    tr > td{
+      border-top: 0;
+    }
+  }
+
+  .notice{
+    font-size: 0.9em;
+    text-align: center;
+    color: @color-green;
+    margin: 15px 0;
+  }
+}
+
+#dt-notice{
+  background-color: @panel-bg;
+  //padding: 15px;
+  margin-bottom: 20px;
+  border-radius: @border-radius-base;
+  display: table;
+  width: 100%;
+
+  > .icon{
+    display: table-cell;
+    width: 50px;
+    vertical-align: middle;
+    background-color: @color-green;
+    padding: 15px;
+    border-radius: @border-radius-base 0 0 @border-radius-base;
+
+    .cu-icon{
+      .cu-icon-size(50px);
+      .cu-icon-color(@color-text-green);
+    }
+  }
+
+  > .text{
+    margin-left: 65px;
+    display: table-cell;
+    padding: 0 15px;
+    vertical-align: middle;
+    color: lighten(@text-color, 10%);
+
+    > em{
+        font-size: 1.3em;
+        color: #000;
+        font-style: normal;
+        display: block;
+    }
+  }
+
+  > .button{
+    display: table-cell;
+    width: 200px;
+    padding: 15px;
+    vertical-align: middle;
+
+    .btn{
+      width: 200px;
+      padding: 15px 5px;
+      font-size: 1.2em;
+      font-weight: 700;
+      display: block;
+    }
+  }
+
+
+}
+
+#about-container{
+  width: 100%;
+  margin: 20px auto;
+  max-width: 480px;
+  background-color: #FFF;
+  border-radius: @border-radius-large;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 0;
+
+  > a{
+    display: block;
+    background-color: @color-green-300;
+    padding: 15px;
+    text-align: center;
+  }
+
+  > h4{
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: 300;
+    color: #000;
+    margin: 0;
+    padding: 30px 30px 0;
+  }
+
+  > p{
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.7;
+    padding: 0 30px;
+  }
+
+  a{
+    color: @color-green;
+
+    &:hover{
+      color: @color-orange;
+    }
+  }
+
+  .license-info{
+    padding: 0 30px 0;
+    font-size: 0.9em;
+    em{
+      color: @brand-primary;
+      font-style: normal;
+      font-size: 1.1em;
+    }
+
+  }
+
+  .copy-notices{
+    font-size: 0.8em;
+    text-align: center;
+    padding: 15px 0 10px;
+  }
+
+}
